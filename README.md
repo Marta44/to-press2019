@@ -101,3 +101,57 @@ It plays with neutral light colours which invoke earth-tones and clay's hues:
 The images have been carefully selected to be eye-catching, appealing and compelling. The purpose is to showcase the most recent and important pieces created by the artists. The artists also want the images to clearly show that is possible to personalize the product/object on request.
 
 ---
+## Features
+### Existing Features
+- Five different and individual pages.
+- On every page is present a header logo of the business brand (top-left), if clicked brings the user back to the landing page as they expect.
+- On every page is present a header navigation bar, fixed and centered, that allows the user to navigate easily through the different sections.
+- On every page is present in the navigation bar a language switcher to select the preferred language (English or Italian).
+- On every page is present a fixed footer, which provides business copyright info and social media pages icons (bottom-right), if clicked it brings the user to social media platforms opened on a different tab.
+- On every page is present a call to action button which leads the user to the next step.
+- On the "Landing page" is present a promotional video of the artists in their studio. It keeps the users engaged and invites them to look through the website's contents.
+- On the "About Us" section is provided a downloadable PDF version of the artists' CV/portfolio that gets opened in another tab.
+- On the "Gallery page" is present a preview of the artworks, if clicked opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images.
+- On the "Contact page" is present a form which allows users to get in touch with the artists uploading images or files together with their request message.
+
+### Features to add in future
+- The contact form submission button has to be functional when pressed and provide a feedback to the users to make them feel assured(Javascript needed).
+- Add CAPTCHA, a challenge-response authentication, to the contact form to block spammers and bots (Javascript needed).
+- Add General Data Protection Regulation (GDPR), which protects the Privacy Policy of European Union residents (Javascript needed).
+- Add "Art and ceramic lessons" page. This is a further opportunity for the artists to gain a different income but they need time to organize this activity and to feature its programme.
+---
+## Technologies Used
+### Languages Used
+1. HTML [HTML5](https://en.wikipedia.org/wiki/HTML5)
+2. CSS [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries and Programs Used
+1. [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) : was used to provide responsiveness on all device sizes and add some stylistic components.
+2. [Hover.css](https://ianlunn.github.io/Hover/) : a third part library used to add the transition effect to social media links in the footer and to the navbar text. 
+3. [FontAwesome](https://fontawesome.com/) : was used to add icons for social media links.
+4. [Google Fonts](https://fonts.google.com/) : was used to import typography fonts.
+5. [Balsamiq](https://balsamiq.com/) : was used to create wireframes during the design of the layout.
+6. [jQuery](https://jquery.com/) : was used to make the navbar responsive.
+7. [Popper.js](https://popper.js.org/) : was used to make the navbar responsive.
+8. [AutoPrefixer](https://autoprefixer.github.io/) : was used to analyse the CSS code and make it suitable for all browsers.
+9. [Fancybox](https://fancyapps.com/fancybox/3/) : was used in the "Gallery" page to view and browse images easily.
+10. [Gitpod](https://gitpod.io/) : is the open-source IDE (Integrated Development Environment) that I used to create my project.
+11. [Git](https://git-scm.com/) : was used for version control by utilizing the Gitpod terminal (CLI) to commit to Git and push to GitHub.
+12. [GitHub](https://github.com/) : is a hosting platform used to deploy and store the project code after being pushed from Git.
+---
+## Testing
+### Bugs and challenges during the project
+---
+## Deployment
+---
+## Credits
+### Resources Used
+- [CSS flexbox](https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f) - to keep the footer at the bottom of the page.
+### Code
+### Content
+- The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi.
+- The text and headings in the rest of the website were created by Marta Marassi.
+### Media
+- All the images used in the website were created by Elisabetta Schiavini and Sabrina Cardani.
+---
+## Acknowledgements
