@@ -76,11 +76,11 @@ The paragraphs with contents and information are not too dense and packed.
 The structure is simple and follows a linear narrative. This allows the users to navigate themselves to the 'Contact us' page keeping their attention with a good UX design.
 
 ## Skeleton
-- [Landing Page wireframe]()
-- [About Us Page wireframe]()
-- [Gallery Page wireframe]()
-- [Customize your product Page wireframe]()
-- [Contact Us Page wireframe]()
+- [Landing Page wireframe](/workspace/to-press2019/assets/wireframes/1-home-page.pdf)
+- [About Us Page wireframe](/workspace/to-press2019/assets/wireframes/2-about-page.pdf)
+- [Gallery Page wireframe](/workspace/to-press2019/assets/wireframes/3-gallery-page.pdf)
+- [Customize your product Page wireframe](/workspace/to-press2019/assets/wireframes/4-customize-page.pdf)
+- [Contact Us Page wireframe](/workspace/to-press2019/assets/wireframes/5-contact-page.pdf)
 
 ## Surface
 **Design Scheme**
