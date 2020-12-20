@@ -2,7 +2,7 @@
 
 ## Clay Impressions
 
-[View the live project in GitHub Pages]()
+[View the live project in GitHub Pages](https://github.com/Marta44/to-press2019)
 ![Image]()
 
 ### Overview
@@ -94,7 +94,7 @@ It plays with neutral light colours which invoke earth-tones and clay's hues:
 
 **Typography**
 * "Fredericka the Great" font ("Exo" as fallback font) for headings. I've chosen this font for its artistic and clear aspect.
-* "Josefin Slab" font ("Montserrat" as fallback font) for body content. I've chosen this font for its elegant design.
+* "Josefin Slab" font ("Cormorant" as fallback font) for body content. I've chosen this font for its elegant design.
 
 **Imagery**
 
@@ -146,7 +146,21 @@ The images have been carefully selected to be eye-catching, appealing and compel
 ---
 ## Credits
 ### Resources Used
+- [HTML format](https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html) - to learn how to format and indent my html code.
+- [CSS format](https://github.com/necolas/idiomatic-css/blob/master/README.md) - to learn how to write consistent and idiomatic css code.
+- [CSS reference](https://tympanus.net/codrops/css_reference/) - collection of properties and info to learn css from the basics.
 - [CSS flexbox](https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f) - to keep the footer at the bottom of the page.
+- [Markdown syntax](https://www.markdownguide.org/basic-syntax/) - to learn how to write markdown language.
+- [Readme format](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) - to learn how to structure a readme file.
+- [Commit messages](https://chris.beams.io/posts/git-commit/) - to learn how to write good commit messages in the CLI.
+- [Deploy to Github Pages](https://www.codecademy.com/articles/f1-u3-github-pages) - to learn how to deploy my project to Github pages.
+- [Javascripts position](https://flaviocopes.com/javascript-async-defer/) - to learn how load Javascript efficiently in my html file.
+- [Stack Overflow](https://stackoverflow.com/) - General resource.
+- [CSS-Tricks](https://css-tricks.com/) - General resource.
+- [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
+- [Bootsrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - to learn the Bootstrap grid system.
+- [Coolors](https://coolors.co/) - to find the right matching color palette for my website.
+
 ### Code
 ### Content
 - The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi.
