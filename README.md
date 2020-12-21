@@ -87,9 +87,10 @@ The structure is simple and follows a linear narrative. This allows the users to
 
 It plays with neutral light colours which invoke earth-tones and clay's hues:
 
-* I've chosen a soft pink (#) for backgrounds.
-* I've used a gray (#) for body-text to make it outstanding and in contrast.
-* I've chosen off-white (#fafafa) for the navigation bar adding a transition (when the mouse hovers over the text) that turns it into a darker pink (#).
+* I've chosen a soft clay color shade (#eed2c9) for backgrounds.
+* I've used a gray (rgb 128,128,128) for body-text to make it outstanding and in contrast.
+* I've chosen the porcelain color (rgba 236,240,241,1) for the navigation bar background.
+* I've chosen a darker clay color (#cc7459) when the mouse hovers over the text in the navbar.
 * I've used a darker gray (#) for headings.
 
 **Typography**
@@ -154,12 +155,12 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [Readme format](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) - to learn how to structure a readme file.
 - [Commit messages](https://chris.beams.io/posts/git-commit/) - to learn how to write good commit messages in the CLI.
 - [Deploy to Github Pages](https://www.codecademy.com/articles/f1-u3-github-pages) - to learn how to deploy my project to Github pages.
-- [Javascripts position](https://flaviocopes.com/javascript-async-defer/) - to learn how load Javascript efficiently in my html file.
+- [Javascript position](https://flaviocopes.com/javascript-async-defer/) - to learn how load Javascript efficiently in my html file.
 - [Stack Overflow](https://stackoverflow.com/) - General resource.
 - [CSS-Tricks](https://css-tricks.com/) - General resource.
 - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
-- [Bootsrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - to learn the Bootstrap grid system.
-- [Coolors](https://coolors.co/) - to find the right matching color palette for my website.
+- [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - to learn the Bootstrap grid system.
+- [Colors](https://icolorpalette.com/color/dusted-clay) and [Colors](http://www.flatuicolorpicker.com/) - to find the right matching color palette for my website.
 
 ### Code
 ### Content

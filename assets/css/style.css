@@ -1,2 +1,14 @@
+/*----Fonts----*/
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Exo&family=Fredericka+the+Great&family=Josefin+Slab:wght@500&display=swap');
 
+
+body {font-family: 'Josefin Slab', 'Cormorant'; color: gray;
+background-color: #eed2c9;}
+
+/*--Links--*/
+a {font-weight: bold; text-decoration:none; color: gray;}
+a:hover {text-decoration: none; color: #cc7459;}
+
+/*--Navbar--*/
+.bg-color-navbar {background-color: rgba(236,240, 241, 1);}
+.navbar-nav .nav-item .nav-link:hover {color: #cc7459;}
