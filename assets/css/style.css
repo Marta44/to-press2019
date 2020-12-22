@@ -12,3 +12,4 @@ a:hover {text-decoration: none; color: #cc7459;}
 /*--Navbar--*/
 .bg-color-navbar {background-color: rgba(236,240, 241, 1);}
 .navbar-nav .nav-item .nav-link:hover {color: #cc7459;}
+.btn .btn-primary .btn-sm {background-color: #cc7459;}
