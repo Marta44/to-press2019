@@ -88,10 +88,10 @@ The structure is simple and follows a linear narrative. This allows the users to
 It plays with neutral light colours which invoke earth-tones and clay's hues:
 
 * I've chosen a soft clay color shade (#eed2c9) for backgrounds.
-* I've used a gray (rgb 128,128,128) for body-text to make it outstanding and in contrast.
+* I've used an ultimate gray (rgb 149,154,156) for body-text to make it outstanding and in contrast.
 * I've chosen the porcelain color (rgba 236,240,241,1) for the navigation bar background.
 * I've chosen a darker clay color (#cc7459) when the mouse hovers over the text in the navbar.
-* I've used a darker gray (#) for headings.
+* I've used a darker dusted clay color (#c55f40) for headings.
 
 **Typography**
 * "Fredericka the Great" font ("Exo" as fallback font) for headings. I've chosen this font for its artistic and clear aspect.
@@ -150,7 +150,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [HTML format](https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html) - to learn how to format and indent my html code.
 - [CSS format](https://github.com/necolas/idiomatic-css/blob/master/README.md) - to learn how to write consistent and idiomatic css code.
 - [CSS reference](https://tympanus.net/codrops/css_reference/) - collection of properties and info to learn css from the basics.
-- [CSS flexbox](https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f) - to keep the footer at the bottom of the page.
+- [CSS Flexbox](https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f) - to structure the navigation bar layout and keep the footer at the bottom of the page.
 - [Markdown syntax](https://www.markdownguide.org/basic-syntax/) - to learn how to write markdown language.
 - [Readme format](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) - to learn how to structure a readme file.
 - [Commit messages](https://chris.beams.io/posts/git-commit/) - to learn how to write good commit messages in the CLI.

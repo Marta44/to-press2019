@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="description" content="Home page for To Press, ceramic business of Elisabetta Schiavini and Sabrina Cardani"/>
-<meta name="keywords" content="artist, ceramic, customize, personalize, Italy, italian, custom objects, artworks, jewellery, local artist">
+<meta name="keywords" content="artist, ceramic, clay, customize, personalize, Italy, italian, custom objects, artworks, jewellery, local artist">
 <meta name="author" content="Marta Marassi"
 <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon32x32.png">
@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Exo&family=Fredericka+the+Great&family=Josefin+Slab:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Exo:wght@400;500;600;700&family=Fredericka+the+Great&family=Josefin+Slab:wght@400;500;600;700&display=swap">
 <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
 <!--Local style-->
 <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
@@ -25,8 +25,11 @@
     <!--Navbar and logo-->
     <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-color-navbar">
     <a class= "navbar-brand" href="index.html">
-        <img src="assets/images/logo-to-press.png" alt="to-press logo" width="150" height="40" class="d-inline-block">
+        <img src="assets/images/logo-to-press.png" alt="to-press logo" title="to-press logo" width="150" height="40" class="d-inline-block">
     </a>
+     <!--CREDIT - Code solution to place buttons outside the navbar-collapse section by Igor Basuga, Tutor at Code Institute-->
+           <button class="btn btn-small btn-light" role="button" aria-pressed="true"><a href="index.html">EN</a></button>
+    <button class="btn btn-small btn-dark" role="button" aria-pressed="true"><a href="ITAindex.html">ITA</a></button>
     <button class="navbar-toggler d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,10 +55,14 @@
 </ul>
         </div>
     </div>
-    <div class="language"><a href="index.html" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">EN</a>
-            <a href="ITAindex.html" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">ITA</a></div>
      </nav>
     </header>
+    <!--Full width hero video-->
+        <div class="video-container d-lg-block">
+            <video class="video full-width" autoplay loop muted>
+                <source src="assets/videos/Herovideo.mp4" type="video/mp4" width="1080" height="1080">
+                </video>
+        </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>

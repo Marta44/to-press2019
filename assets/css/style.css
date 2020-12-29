@@ -1,15 +1,62 @@
-/*----Fonts----*/
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Exo&family=Fredericka+the+Great&family=Josefin+Slab:wght@500&display=swap');
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
+/*UX Colors
+ Light clay color: #eed2c9 Carnelian Color Shades
+ Light shades: #ecf0f1 Porcelain color
+ Darker clay color: #cc7459 Carnelian Color Shades
+ Grey shades: #959A9C Ultimate Gray
+ Darker clay color: #c55f40 Dusted Clay Color Shades
+*/
 
-body {font-family: 'Josefin Slab', 'Cormorant'; color: gray;
+/*--Google Fonts:
+Fredericka the Great: weight 400, headings h1 and h2
+Josefin Slab: weight 400-700, general font serif
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Exo:wght@400;500;600;700&family=Fredericka+the+Great&family=Josefin+Slab:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {font-family: 'Josefin Slab', 'Cormorant'; color:#959A9C;
 background-color: #eed2c9;}
 
 /*--Links--*/
-a {font-weight: bold; text-decoration:none; color: gray;}
-a:hover {text-decoration: none; color: #cc7459;}
+a {font-weight: bold; text-decoration:none; color: #959A9C;}
+a:hover, a:focus, a:active {text-decoration: none; color: #cc7459;}
 
 /*--Navbar--*/
+.container {position: relative;
+text-align: center;}
+.nav-link {font-family: 'Josefin Slab', 'Cormorant';
+font-weight: bold;
+text-align: center;}
+.navbar .navbar-brand {border-style: solid; border-width: 1px; border-color: #959A9C; background-color: gray;}
 .bg-color-navbar {background-color: rgba(236,240, 241, 1);}
 .navbar-nav .nav-item .nav-link:hover {color: #cc7459;}
-.btn .btn-primary .btn-sm {background-color: #cc7459;}
+.btn {display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    width: fit-content;
+    height: fit-content;
+border: 1px solid gray;
+background-color: #eed2c9;
+text-decoration: none;
+box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);}
+.btn:visited, .btn:hover, .btn:focus, .btn:active {background-color: #fafafa;
+border: 1px solid gray;}
+
+/*--Hero Video--*/
+.video {position: absolute;
+width: 100%;}
+
+/*--Media Queries--*/
+
