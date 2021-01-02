@@ -118,7 +118,9 @@ font-size: 18px;}
 .fab:hover {
     -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3);}
 
-/*--Media Queries--*/
+/*--Contact page--*/
+.contact-container {background-image: url('../images/background-contact-page-min.png') no-repeat;}
+    /*--Media Queries--*/
 /*--Phones--*/
 @media screen and (max-width: 768px) {.navbar-buttons{margin-right: 0;}
     #copyright-column{font-size: 10px; margin-left: 0;}
