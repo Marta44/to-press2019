@@ -119,9 +119,10 @@ font-size: 18px;}
     -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3);}
 
 /*--Contact page--*/
-.contact-container {background-image: url('../images/background-contact-page-min.png') no-repeat;}
+.contact-container {position: relative;}
 #contact-title {font-family: 'Fredericka the Great', cursive;
 text-transform: uppercase;
+text-align: center;
 font-size: 30px;}
     /*--Media Queries--*/
 /*--Phones--*/
