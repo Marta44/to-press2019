@@ -119,11 +119,13 @@ font-size: 18px;}
     -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3);}
 
 /*--Contact page--*/
-.contact-container {position: relative;}
+
 #contact-title {font-family: 'Fredericka the Great', cursive;
 text-transform: uppercase;
 text-align: center;
-font-size: 30px;}
+font-size: 30px;
+padding-top: 100px;}
+
     /*--Media Queries--*/
 /*--Phones--*/
 @media screen and (max-width: 768px) {.navbar-buttons{margin-right: 0;}

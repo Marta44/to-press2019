@@ -172,3 +172,5 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - All the images used in the website were created by Elisabetta Schiavini and Sabrina Cardani.
 ---
 ## Acknowledgements
+- I would like to say thanks to my mentor Ignatius Ukwuoma for his precious advices and continuous help during the project.
+- I would like to thank Igor Basuga, tutor at the Code Institute for his prompt support and assistance.
