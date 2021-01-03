@@ -165,12 +165,15 @@ text-align: center;}
 
 .form-container {background-color: #fafafa;
 opacity: 0.7;
-max-width: 60%;
+max-width: 65%;
 }
-.btn .btn-lg{border: 1px solid gray;
-background-color: #eed2c9;
-}
-.btn .btn-lg:hover {background-color: #cc7459;}
+.form-group{text-transform: uppercase;
+font-weight: 600;
+font-size: 15px;}
+.btn-submit{border: 1px solid gray;
+background-color: #eed2c9;}
+.btn-submit:hover{background-color: #cc7459;}
+
 
     /*--Media Queries--*/
 /*--Phones--*/
