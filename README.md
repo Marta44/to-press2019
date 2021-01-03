@@ -135,7 +135,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 6. [jQuery](https://jquery.com/) : was used to make the navbar responsive.
 7. [Popper.js](https://popper.js.org/) : was used to make the navbar responsive.
 8. [AutoPrefixer](https://autoprefixer.github.io/) : was used to analyse the CSS code and make it suitable for all browsers.
-9. [Fancybox](https://fancyapps.com/fancybox/3/) : was used in the "Gallery" page to view and browse images easily.
+9. [Fancybox](https://fancyapps.com/fancybox/3/) : was used in the "Home Page" and "Gallery" page to view and browse images easily.
 10. [Gitpod](https://gitpod.io/) : is the open-source IDE (Integrated Development Environment) that I used to create my project.
 11. [Git](https://git-scm.com/) : was used for version control by utilizing the Gitpod terminal (CLI) to commit to Git and push to GitHub.
 12. [GitHub](https://github.com/) : is a hosting platform used to deploy and store the project code after being pushed from Git.
@@ -161,6 +161,8 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
 - [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - to learn the Bootstrap grid system.
 - [Colors](https://icolorpalette.com/color/dusted-clay) and [Colors](http://www.flatuicolorpicker.com/) - to find the right matching color palette for my website.
+- [Resize images](https://photoshop.adobe.com/) and [Compress images](https://compresspng.com/)
+- [Resize and crop video](https://ezgif.com/crop-video) and [Compress video](https://www.mp4compress.com/)
 
 ### Code
 ### Content
