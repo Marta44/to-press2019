@@ -174,7 +174,6 @@ font-size: 15px;}
 background-color: #eed2c9;}
 .btn-submit:hover{background-color: #cc7459;}
 
-
     /*--Media Queries--*/
 /*--Phones--*/
 @media screen and (max-width: 768px) {.navbar-buttons{margin-right: 0;}
