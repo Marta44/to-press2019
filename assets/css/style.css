@@ -65,7 +65,12 @@ border: 1px solid gray;}
 width: 100%;
 height: 100%;
 margin-top: 20px;
-overflow: hidden;}
+overflow: hidden;
+z-index: 0;}
+.overlay{position: absolute;
+    top: 0;
+    left: 0;
+z-index: 1;}
 
 
 /*--Home page content--*/
@@ -152,7 +157,7 @@ font-size: 30px;
 font-weight: 600; text-align: center;}
 .button-contact {text-align: center; justify-content: center;}
 #btn-contact-design {border: 1px solid gray; background-color: #cc7459; font-weight: 600;}
-#btn-contact-design:hover{background-color: rgba(236,240, 241, 1);}
+#btn-contact-design:hover{background-color:  rgba(236,240, 241, 1);}
 /*--Contact page--*/
 /*-- Credit for full page background image: https://css-tricks.com/perfect-full-page-background-image/ --*/
 .bg-img {position: fixed;
@@ -189,7 +194,7 @@ color: black;
 font-size: 15px;}
 .btn-submit{border: 1px solid gray;
 background-color: #cc7459;}
-.btn-submit:hover{background-color: #eed2c9;}
+.btn-submit:hover{background-color: rgba(236,240, 241, 1);}
 
     /*--Media Queries--*/
 /*--Phones--*/
