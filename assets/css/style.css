@@ -79,6 +79,10 @@ margin-bottom: 30px;}
 #intro-content {font-family: 'Caveat', cursive;
 font-size: 30px;
 font-weight: 600;}
+hr {border:none;
+    width: 150px;
+    height:15px;
+    box-shadow: 0 5px 5px -5px #333;}
 #mission-heading {font-family: 'Fredericka the Great', cursive;
 text-transform: uppercase;
 font-size: 30px;}
@@ -124,6 +128,11 @@ font-weight: 400;
 text-align: center;
 font-size: 30px;
 padding-top: 100px;}
+.download-brochure {text-align: center;
+justify-items: center;}
+#btn-download {text-align: center;
+border: 1px solid gray; background-color: #cc7459; font-weight: 600;}
+#btn-download:hover {background-color: rgba(236,240, 241, 1);}
 /*--Gallery page--*/
 #gallery-heading {font-family: 'Fredericka the Great', cursive;
 text-transform: uppercase;
@@ -138,6 +147,12 @@ font-weight: 400;
 text-align: center;
 font-size: 30px;
 padding-top: 100px;}
+#customize-subheading{font-family: 'Caveat', cursive;
+font-size: 30px;
+font-weight: 600; text-align: center;}
+.button-contact {text-align: center; justify-content: center;}
+#btn-contact-design {border: 1px solid gray; background-color: #cc7459; font-weight: 600;}
+#btn-contact-design:hover{background-color: rgba(236,240, 241, 1);}
 /*--Contact page--*/
 /*-- Credit for full page background image: https://css-tricks.com/perfect-full-page-background-image/ --*/
 .bg-img {position: fixed;
@@ -166,15 +181,15 @@ text-align: center;}
 
 .form-container {background-color: #fafafa;
 opacity: 0.7;
-max-width: 65%;
+max-width: 70%;
 }
 .form-group{text-transform: uppercase;
 font-weight: 600;
 color: black;
 font-size: 15px;}
 .btn-submit{border: 1px solid gray;
-background-color: #eed2c9;}
-.btn-submit:hover{background-color: #cc7459;}
+background-color: #cc7459;}
+.btn-submit:hover{background-color: #eed2c9;}
 
     /*--Media Queries--*/
 /*--Phones--*/
