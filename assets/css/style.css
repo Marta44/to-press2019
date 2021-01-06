@@ -101,6 +101,8 @@ font-size: 30px;}
 #mission-content {font-family: 'Josefin Slab', serif;
 font-size: 20px;
 font-weight: 600;}
+#btn-read{border: 1px solid gray; background-color: #cc7459; font-weight: 600;}
+#btn-read:hover {background-color: rgba(236,240, 241, 1);}
 
 /*--Home page Hero images--*/
 .hero-images {margin-bottom: 100px;}
