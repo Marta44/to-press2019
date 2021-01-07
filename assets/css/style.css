@@ -70,14 +70,17 @@ z-index: 0;}
 .overlay-box{position: absolute;
     top: 70px;
     left: 0px;
-    width: 350px;
-    height: 120px;
+    width: 400px;
+    height: 170px;
     background-color: rgba(236,240, 241, 1);
     opacity: 0.7;
 z-index: 1;
 border-radius: 20px;}
-.overlay-text{color: #cc7459; font-family: 'Fredericka the Great', cursive; font-size: 40px; font-weight: 500;
-z-index: 2; text-align: center; margin-top: 30px;}
+#overlay-title{color: #cc7459; font-family: 'Fredericka the Great', cursive; font-size: 40px; font-weight: 400;
+z-index: 2; text-align: center; margin-top: 20px;}
+#overlay-subtext {color: #cc7459; font-family: 'Caveat', cursive;
+font-size: 25px;
+text-align: center;}
 
 
 /*--Home page content--*/
@@ -209,11 +212,17 @@ background-color: #cc7459;}
 /*--Phones--*/
 @media screen and (max-width: 768px){
     .video {margin-top: 80px;}
-    .overlay-box{width: 170px;height: 70px; top: 75px;}
-    .overlay-text{font-size: 20px; padding-bottom: 30px; vertical-align: middle;}
-    #copyright-column{font-size: 10px; margin-left: 0;}
+    .overlay-box {width: 170px;height: 203px; margin-top: 10px; padding-top: 20px;}
+    #overlay-title {font-size: 20px; vertical-align: middle;}
+    #overlay-subtext {font-size: 20px; text-align: center;}
+    #copyright-column {font-size: 10px; margin-left: 0;}
 .footer-heading {font-size: 15px;}
 .social-links {font-size: 19px; margin: 0; padding: 0;}
 /*--Credit button responsive: https://gist.github.com/raihan004/42b2c14936eba79ee68b --*/
 .btn-submit{padding: 2px 4px;
 font-size: 80%;}}
+
+/*--Tablets--*/
+@media screen and (max-width: 992px){.overlay-box {width: 170px;height: 203px; padding-top: 20px;}
+    #overlay-title {font-size: 20px; vertical-align: middle;}
+    #overlay-subtext {font-size: 20px; text-align: center;}}
