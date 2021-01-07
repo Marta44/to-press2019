@@ -7,7 +7,7 @@
 
 ### Overview
 
-This is a user-centric static website for Elisabetta Schiavini and Sabrina Cardani, two ceramic artists based in Italy.
+This is a user-centric static website for Sabrina Cardani and Elisabetta Schiavini, two ceramic artists based in Italy.
 As the artists are Italian, the website has both an English and Italian version.
 It is designed to be responsive on all devices (desktop screens, tablets and smartphones). 
 Their ceramics and artworks are not expensive, their products are accessible to everyone. What separates *To Press* products from their competitors is that they are tailored to the customers specifics needs.   
@@ -62,6 +62,7 @@ The customers goals of this website are:
 1. View and inspect the artworks, the product specifics and prices.
 2. Ask for a personalized and customized product. 
 3. Place an order quickly, intuitively and easily.
+4. Sign up in a newsletter to stay updated on their creations.
 
 ## Scope
 I want to offer to the users an overview of the artists mission, artworks and portfolio. The scope of this project is to keep them interested and engaged until they make the decision to get in touch with the artists filling a contact form.
@@ -119,7 +120,9 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - The contact form submission button has to be functional when pressed and provide a feedback to the users to make them feel assured(Javascript needed).
 - Add CAPTCHA, a challenge-response authentication, to the contact form to block spammers and bots (Javascript needed).
 - Add General Data Protection Regulation (GDPR), which protects the Privacy Policy of European Union residents (Javascript needed).
-- Add "Art and ceramic lessons" page. This is a further opportunity for the artists to gain a different income but they need time to organize this activity and to feature its programme.
+- Add "Ceramic lessons" page. This is a further opportunity for the artists to gain a different income but they need time to organize this activity and to feature its programme.
+- Add "Collaborations and projects" page. Once they build up their network and start to collaborate with more artists is important to dedicate to it a specific section.  
+- Add a further description in the "About us" page about their education and artistic path. 
 ---
 ## Technologies Used
 ### Languages Used
