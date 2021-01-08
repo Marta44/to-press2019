@@ -142,6 +142,12 @@ font-weight: 400;
 text-align: center;
 font-size: 30px;
 padding-top: 100px;}
+#about-subheading {font-family: 'Caveat', cursive;
+font-size: 30px;
+font-weight: 600; text-align: center;}
+.about-text {font-family: 'Josefin Slab', serif;
+font-size: 20px;
+font-weight: 600; text-align: justify;}
 .download-brochure {text-align: center;
 justify-items: center;}
 #btn-download {text-align: center;
