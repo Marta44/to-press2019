@@ -130,7 +130,7 @@ font-size: 18px;}
     font-size: 18px;
     width: 60%;
 }
-.copyright {margin-right: 85px;}
+.copyright {margin-right: 95px;}
 #social-column {display: inline-block;
     text-align: end;
     -webkit-box-pack: end;
@@ -191,7 +191,7 @@ text-transform: uppercase;
 font-weight: 500;
 text-align: center;
 font-size: 30px;
-padding-top: 100px;}
+padding-top: 80px;}
 
 #contact-subheading {font-family: 'Josefin Slab', serif;
 color: #cc7459;
@@ -223,7 +223,8 @@ background-color: #cc7459;}
 .social-links {font-size: 19px; margin: 0; padding: 0;}
 /*--Credit button responsive: https://gist.github.com/raihan004/42b2c14936eba79ee68b --*/
 .btn-submit{padding: 2px 4px;
-font-size: 80%;}}
+font-size: 80%;}
+#contact-heading{padding-top: 100px;}}
 
 /*--Tablets--*/
 @media screen and (max-width: 992px){.overlay-box {width: 170px;height: 203px; padding-top: 20px;}
