@@ -205,14 +205,14 @@ text-align: center;}
 
 .form-container {background-color: #fafafa;
 opacity: 0.7;
-max-width: 70%;
+max-width: 60%; margin-bottom: 180px;
 }
 .form-group{text-transform: uppercase;
 font-weight: 600;
 color: black;
 font-size: 15px;}
 .btn-submit{border: 1px solid gray;
-background-color: #cc7459; margin-bottom: 90px;}
+background-color: #cc7459;}
 .btn-submit:hover{background-color: rgba(236,240, 241, 1);}
 
     /*--Media Queries--*/
@@ -247,7 +247,8 @@ font-size: 20px; bottom: 0;}
 #social-column{text-align: end; padding-left: 40px; align-content: center;}
 #copyright-column {font-size: 20px; text-align: center;padding-right: 10px;}
 .container-photo{padding-left: 0; width: fit-content;}
-#btn-download{margin-bottom: 300px;}
+#btn-download{margin-bottom: 300px;} 
+.form-container{margin-bottom: 400px;}
 }
     
     /*--Tablets--*/
