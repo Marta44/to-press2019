@@ -21,6 +21,9 @@ Josefin Slab: weight 400-700, general font serif
 
 body {font-family: 'Josefin Slab', serif; color:#959A9C;
 background-color: #eed2c9;}
+p {font-family: 'Josefin Slab', serif;
+font-size: 20px;
+font-weight: 600;}
 
 /*--Links--*/
 a {font-weight: bold; text-decoration:none; color: #959A9C;}
@@ -102,9 +105,6 @@ hr {border:none;
 text-transform: uppercase;
 font-size: 30px;
 padding-top: 30px;}
-#mission-content {font-family: 'Josefin Slab', serif;
-font-size: 20px;
-font-weight: 600;}
 #btn-read{border: 1px solid gray; background-color: #cc7459; font-weight: 600;}
 #btn-read:hover {background-color: rgba(236,240, 241, 1);}
 
@@ -141,17 +141,19 @@ text-transform: uppercase;
 font-weight: 400;
 text-align: center;
 font-size: 30px;
-padding-top: 100px;}
+padding-top: 120px;
+padding-bottom: 20px;}
 #about-subheading {font-family: 'Caveat', cursive;
 font-size: 30px;
-font-weight: 600; text-align: center;}
+font-weight: 600; text-align: center; padding-bottom: 20px;}
 .about-text {font-family: 'Josefin Slab', serif;
 font-size: 20px;
-font-weight: 600; text-align: justify;}
+font-weight: 600; text-align: justify; padding-bottom: 30px;}
+.container-photo{padding-bottom: 80px; margin-left: 0; padding-left: 100px;}
 .download-brochure {text-align: center;
 justify-items: center;}
 #btn-download {text-align: center;
-border: 1px solid gray; background-color: #cc7459; font-weight: 600;}
+border: 1px solid gray; background-color: #cc7459; font-weight: 600; margin-bottom: 150px;}
 #btn-download:hover {background-color: rgba(236,240, 241, 1);}
 /*--Gallery page--*/
 #gallery-heading {font-family: 'Fredericka the Great', cursive;
@@ -170,6 +172,7 @@ padding-top: 100px;}
 #customize-subheading{font-family: 'Caveat', cursive;
 font-size: 30px;
 font-weight: 600; text-align: center;}
+.customize-process {text-align: center; justify-items: center;}
 .button-contact {text-align: center; justify-content: center;}
 #btn-contact-design {border: 1px solid gray; background-color: #cc7459; font-weight: 600;}
 #btn-contact-design:hover{background-color:  rgba(236,240, 241, 1);}
@@ -224,16 +227,23 @@ background-color: #cc7459;}
     #copyright-column {font-size: 20px; text-align: center;padding-right: 10px; padding-top: 5px;}
 .footer-heading {font-size: 25px; padding-left: 40px; text-align: center;}
 .social-links {font-size: 30px;}
+.about-text{text-align: justify; width: 100%;}
+.container-photo{padding-left: 0; width: fit-content;}
+.download-brochure {text-align: center;
+justify-items: center; padding-left: 120px;}
+#contact-heading{padding-top: 100px;}
 /*--Credit button responsive: https://gist.github.com/raihan004/42b2c14936eba79ee68b --*/
 .btn-submit{padding: 2px 4px;
 font-size: 80%;}
-#contact-heading{padding-top: 100px;}}
+}
 
 /*--Landscape phones--*/
 @media (max-width: 767.98px){.overlay-box {width: 170px;height: 203px; padding-top: 20px;}
     #overlay-title {font-size: 20px; vertical-align: middle;}
     #overlay-subtext {font-size: 20px; text-align: center;} #social-column{text-align: end; padding-left: 40px; align-content: center;}
 #copyright-column {font-size: 20px; text-align: center;padding-right: 10px;}
+.container-photo{padding-left: 0; width: fit-content;}
+#btn-download{margin-bottom: 220px;}
 }
     
     /*--Tablets--*/
