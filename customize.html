@@ -101,11 +101,24 @@
 <!--Footer-->
 <footer class="footer container-fluid fixed-bottom bg-color-footer">
    <div class="row">
-       <div class="col-md-8 col-sm-6 order-2 order-md-1" id="copyright-column">
+       <div class="col-md-4 order-1 order-md-1 my-2" id="newsletter-column">
+           <div class="row">
+               <div class="col">
+        <h2 class="footer-heading">Newsletter</h2>   
+        <p>Stay updated on our creations!</p>
+        </div>
+        <div class="col">
+        <form class="newsletter-input">
+            <input type="email" class="form-control" id="input-email" placeholder="Enter email">
+            <button type="submit" class="btn btn-primary btn-signup">Sign Up</button>
+        </form>
+       </div>
+       </div>
+       </div>
+       <div class="col-md-4 order-3 order-md-2 my-2" id="copyright-column">
        <p class="copyright">Copyright © 2020|To Press <img src="assets/images/favicon32x32.png" alt="icon To Press"></p>
 </div>
- <div class="col-md-4 col-sm-6 order-1 order-md-2">
-       <div id="social-column">
+ <div class="col-md-4 order-2 order-md-3 my-2" id="social-column">
             <h2 class="footer-heading">Social Media</h2>
            <ul class="social-links">
                <li class="list-inline-item mx-1">
@@ -124,7 +137,6 @@
                 </a>
                </li>
            </ul>
-       </div>
        </div>
        </div>
 </footer>
