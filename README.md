@@ -146,7 +146,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 ## Testing
 ### Bugs and challenges during the project
 - I run into some issues placing the language buttons in the navigation bar. On tablet screens (min-width:768px-max-width:1024px)they were stack one above the other and on phone view (min-width:320px-max-width:768px) they were placed under the logo. I overcome this problem:...
-- Another challenge has been to insert the newsletter in the footer. I tried a three columns layout on large screens and to order the items in vertical on phones and tablets. The layout wasn't responsive so I tried to insert the newsletter in the "About us" page because is one of the most visited pages but I didn't like the effect. So at the end I fixed it placing the newsletter in the footer but on large screen I set a relative position for the footer and on smaller screens setting a fixed position one so it couldn't overflow.
+- Another challenge has been to insert the newsletter in the footer. I tried a three columns layout on large screens and to order the items in vertical on phones and tablets. The layout wasn't responsive so I tried to insert the newsletter in the "About us" page because is one of the most visited pages but I didn't like the effect. So at the end I fixed it placing the newsletter in the footer but on large screen I set a relative position for the footer and on smaller screens setting a fixed position so it couldn't overflow.
 ---
 ## Deployment
 ---

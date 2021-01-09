@@ -109,14 +109,14 @@ padding-top: 30px;}
 #btn-read:hover {background-color: rgba(236,240, 241, 1);}
 
 /*--Home page Hero images--*/
-.hero-images {padding-bottom: 130px;}
+.hero-images {padding-bottom: 200px;}
 /*--Footer--*/
 .bg-color-footer {background-color: rgba(236,240, 241, 1);}
 /*--Credit for fixed footer at the bottom of the page: https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page --*/
 .footer{position: fixed;
-height: 100px;
+height: 150px;
 width: 100%;
-font-size: 20px;}
+font-size: 20px; bottom: 0;}
 .footer-heading {font-size: 25px;
     padding-top: 15px;}
 #copyright-column{display: inline-block;
@@ -222,9 +222,11 @@ background-color: #cc7459;}
     #overlay-title {font-size: 20px; vertical-align: middle;}
     #overlay-subtext {font-size: 20px; text-align: center;}
     .hero-images{padding-bottom: 200px;}
-    .footer{height: 170px;}
-#social-column{text-align: center; align-content: center; width: 80%; margin-top: 10px;}
-    #copyright-column {font-size: 20px; text-align: center;padding-right: 10px; padding-top: 5px;}
+    .footer{position: fixed; height: 320px;
+width: 100%;
+font-size: 20px; bottom: 0;}
+#social-column{text-align: center; align-content: center; width: 80%;}
+    #copyright-column {font-size: 20px; text-align: center;padding-right: 10px; padding-top: 5px; padding-bottom: 10px;}
 .footer-heading {font-size: 25px; padding-left: 40px; text-align: center;}
 .social-links {font-size: 30px;}
 .about-text{text-align: justify; width: 100%;}
@@ -240,7 +242,8 @@ font-size: 80%;}
 /*--Landscape phones--*/
 @media (max-width: 767.98px){.overlay-box {width: 170px;height: 203px; padding-top: 20px;}
     #overlay-title {font-size: 20px; vertical-align: middle;}
-    #overlay-subtext {font-size: 20px; text-align: center;} #social-column{text-align: end; padding-left: 40px; align-content: center;}
+    #overlay-subtext {font-size: 20px; text-align: center;}
+#social-column{text-align: end; padding-left: 40px; align-content: center;}
 #copyright-column {font-size: 20px; text-align: center;padding-right: 10px;}
 .container-photo{padding-left: 0; width: fit-content;}
 #btn-download{margin-bottom: 220px;}
