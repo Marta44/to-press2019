@@ -64,7 +64,8 @@ border: 1px solid gray;}
 /*--Home page Hero Video--*/
 /*--Credit for full-width video: https://warwick.ac.uk/services/its/intranet/projects/webdev/sandbox/matmannion/fullwidth-video/ --*/
 .video {position: relative;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 width: 100%;
 height: 100%;
 overflow: hidden;
@@ -90,9 +91,7 @@ text-align: center;}
 -webkit-box-pack: center;
     -ms-flex-pack: center;
         justify-content: center;
-margin-top: 25px;
-margin-bottom: 30px;}
-
+margin: 30px;}
 #intro-content {font-family: 'Caveat', cursive;
 font-size: 30px;
 font-weight: 600;}
@@ -124,8 +123,7 @@ font-size: 20px; bottom: 0;}
     -ms-flex-line-pack: end;
         align-content: flex-end;
         text-align: end;
-    padding-top: 30px;
-    padding-right: 100px;
+    padding: 30px 100px;
     font-size: 18px;
 }
 #social-column {display: inline-block;
@@ -142,15 +140,14 @@ text-transform: uppercase;
 font-weight: 400;
 text-align: center;
 font-size: 30px;
-padding-top: 120px;
-padding-bottom: 20px;}
+padding-top: 120px;}
 #about-subheading {font-family: 'Caveat', cursive;
 font-size: 30px;
 font-weight: 600; text-align: center; padding-bottom: 20px;}
 .about-text {font-family: 'Josefin Slab', serif;
 font-size: 20px;
 font-weight: 600; text-align: justify; padding-bottom: 30px;}
-.container-photo{padding-bottom: 80px; margin-left: 0; padding-left: 100px;}
+.container-photo{padding-bottom: 80px; padding-left: 100px;}
 .download-brochure {text-align: center;
 justify-items: center;padding-bottom: 50px;}
 #btn-download {text-align: center;
@@ -222,8 +219,8 @@ background-color: #cc7459;}
     .overlay-box {width: 170px;height: 203px; margin-top: 10px; padding-top: 20px;}
     #overlay-title {font-size: 20px; vertical-align: middle;}
     #overlay-subtext {font-size: 20px; text-align: center;}
-#social-column{text-align: center; align-content: center; width: 80%;}
-    #copyright-column {font-size: 20px; text-align: center;padding-right: 10px; padding-top: 5px; padding-bottom: 10px;}
+#social-column{text-align: center; -ms-flex-line-pack: center; align-content: center; width: 90%;}
+    #copyright-column {font-size: 20px; text-align: center; padding: 5px 5px 10px;}
 .footer-heading {font-size: 25px; padding-left: 40px; text-align: center;}
 .social-links {font-size: 30px;}
 .about-text{text-align: justify; width: 100%;}
@@ -244,12 +241,12 @@ font-size: 80%;}
       .footer{position: fixed; height: 320px;
 width: 100%;
 font-size: 20px; bottom: 0;}
-#social-column{text-align: end; padding-left: 40px; align-content: center;}
-#copyright-column {font-size: 20px; text-align: center;padding-right: 10px;}
-.container-photo{padding-left: 0; width: fit-content;}
+#social-column{text-align: end; padding-left: 40px; -ms-flex-line-pack: center; align-content: center;}
+#copyright-column {font-size: 20px; text-align: center; padding-right: 10px;}
+.container-photo{width: fit-content;}
 #btn-download{margin-bottom: 300px;} 
 .form-container{margin-bottom: 400px;}
 }
     
     /*--Tablets--*/
-    @media (max-width: 991.98px) {#social-column{text-align: center; padding-left: 40px; align-content: center;}}
+    @media (max-width: 991.98px) {#social-column{text-align: center; padding-left: 40px; -ms-flex-line-pack: center; align-content: center;}}
