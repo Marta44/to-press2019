@@ -77,22 +77,21 @@ The paragraphs with contents and information are not too dense and packed.
 The structure is simple and follows a linear narrative. This allows the users to navigate themselves to the 'Contact us' page keeping their attention with a good UX design.
 
 ## Skeleton
-- [Landing Page wireframe](/workspace/to-press2019/assets/wireframes/1-home-page.pdf)
-- [About Us Page wireframe](/workspace/to-press2019/assets/wireframes/2-about-page.pdf)
-- [Gallery Page wireframe](/workspace/to-press2019/assets/wireframes/3-gallery-page.pdf)
-- [Customize your product Page wireframe](/workspace/to-press2019/assets/wireframes/4-customize-page.pdf)
-- [Contact Us Page wireframe](/workspace/to-press2019/assets/wireframes/5-contact-page.pdf)
+- [Landing Page wireframe](/workspace/to-press2019/assets/wireframes/1Home-page.pdf)
+- [About Us Page wireframe](/workspace/to-press2019/assets/wireframes/2About-page.pdf)
+- [Gallery Page wireframe](/workspace/to-press2019/assets/wireframes/3Gallery-page.pdf)
+- [Customize your product Page wireframe](/workspace/to-press2019/assets/wireframes/4Customize-page.pdf)
+- [Contact Us Page wireframe](/workspace/to-press2019/assets/wireframes/5Contact-page.pdf)
 
 ## Surface
 **Design Scheme**
 
 It plays with neutral light colours which invoke earth-tones and clay's hues:
 
-* I've chosen a soft clay color shade (#eed2c9) for backgrounds.
-* I've used an ultimate gray (rgb 149,154,156) for body-text to make it outstanding and in contrast.
-* I've chosen the porcelain color (rgba 236,240,241,1) for the navigation bar background.
-* I've chosen a darker clay color (#cc7459) when the mouse hovers over the text in the navbar.
-* I've used a darker dusted clay color (#c55f40) for headings.
+* I've chosen a soft Crown Paint Beige Light color (#EFE7DB) for backgrounds because evokes the paper label they attach to their artworks.
+* I've used Light Slate Gray (#778899) for body-text to make it outstanding and because evokes clay's color.
+* I've chosen Porcelain color (rgba 236,240,241,1) for the navigation bar background and the footer.
+* I've chosen Benjamin Moore Red color (#ca2f2f) for the links in the navbar and for the main headings because reminds the color of their logo.
 
 **Typography**
 * "Fredericka the Great" font ("Exo" as fallback font) for headings. I've chosen this font for its artistic and clear aspect.
@@ -100,7 +99,7 @@ It plays with neutral light colours which invoke earth-tones and clay's hues:
 
 **Imagery**
 
-The images have been carefully selected to be eye-catching, appealing and compelling. The purpose is to showcase the most recent and important pieces created by the artists. The artists also want the images to clearly show that is possible to personalize the product/object on request.
+The images have been carefully selected to be eye-catching, appealing and compelling. The purpose is to showcase the most recent and important pieces created by the artists. The artists want the images to clearly show that is possible to personalize the product/object on request. They also wish to transmit that they are ceramic makers and that the decoration aspect is an added value.
 
 ---
 ## Features
@@ -165,7 +164,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [CSS-Tricks](https://css-tricks.com/) - General resource.
 - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
 - [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - to learn the Bootstrap grid system.
-- [Colors](https://icolorpalette.com/color/dusted-clay) and [Colors](http://www.flatuicolorpicker.com/) - to find the right matching color palette for my website.
+- [Colors](https://encycolorpedia.com)- to find the right matching color palette for my website.
 - [Resize images](https://photoshop.adobe.com/) and [Compress images](https://compresspng.com/)
 - [Resize and crop video](https://ezgif.com/crop-video) and [Compress video](https://www.mp4compress.com/)
 
