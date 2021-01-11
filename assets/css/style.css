@@ -178,9 +178,12 @@ padding-top: 100px;}
 #customize-subheading{font-family: 'Caveat', cursive;
 font-size: 30px;
 font-weight: 600; text-align: center; padding-bottom: 20px;}
-.customize-process {text-align: center; justify-items: center;}
+.customize-process {text-align: center; justify-items: center; padding-top: 60px; padding-bottom: 60px;}
 .customize-icons{color: #ca2f2f;}
-.button-contact {text-align: center; justify-content: center;}
+.card{height: fit-content; background-color: rgba(236,240, 241, 1); margin-bottom:40px;}
+.card-img-top{width: 100%; object-fit: cover;}
+.card-title{color: #ca2f2f;}
+.button-contact {text-align: center; justify-content: center; padding-bottom: 200px; padding-top: 20px;}
 #btn-contact-design {border: 1px solid gray; background-color: #ca2f2f; font-weight: 600;}
 #btn-contact-design:hover{background-color:  rgba(236,240, 241, 1);}
 /*--Contact page--*/
@@ -256,6 +259,7 @@ font-size: 20px; bottom: 0;}
 .container-photo{width: fit-content;}
 #btn-download{margin-bottom: 300px;} 
 .form-container{margin-bottom: 400px;}
+.button-contact{padding-bottom: 350px;}
 }
     
     /*--Tablets--*/
