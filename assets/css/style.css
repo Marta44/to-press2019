@@ -149,7 +149,7 @@ font-weight: 600; text-align: center; padding-bottom: 20px;}
 .about-text {font-family: 'Josefin Slab', serif;
 font-size: 20px;
 font-weight: 600; text-align: justify; padding-bottom: 30px;}
-.container-photo{padding-bottom: 40px; padding-left: 100px;}
+.container-photo{padding-bottom: 40px; padding-left: 200px; align-items: center; align-content: center;}
 #about-activities{font-family: 'Caveat', cursive;
 font-size: 30px;
 font-weight: 600; text-align: center; padding-bottom: 20px; padding-left: 20px;}
@@ -237,12 +237,11 @@ background-color: #ca2f2f;}
     .overlay-box {width: 170px;height: 203px; margin-top: 10px; padding-top: 20px;}
     #overlay-title {font-size: 20px; vertical-align: middle;}
     #overlay-subtext {font-size: 20px; text-align: center;}
-#social-column{text-align: center; -ms-flex-line-pack: center; align-content: center; width: 90%;}
-    #copyright-column {font-size: 20px; text-align: center; padding: 5px 5px 10px;}
-.footer-heading {font-size: 25px; padding-left: 40px; text-align: center;}
+    .footer-heading {font-size: 25px; padding-left: 40px; text-align: center;}
+    #newsletter-column{text-align: center; -ms-flex-line-pack: center; align-content: center;}
+#social-column{text-align: center; -ms-flex-line-pack: center; align-content: center; width: 80%;}
 .social-links {font-size: 30px;}
 .about-text{text-align: justify; width: 100%;}
-.container-photo{padding-left: 0; width: fit-content;}
 .download-brochure {text-align: center;
 justify-items: center; padding-left: 60px;}
 #contact-heading{padding-top: 100px;}
@@ -261,13 +260,14 @@ width: 100%;
 font-size: 20px; bottom: 0;}
 #newsletter-column{margin-left: 10px;}
 #social-column{text-align: end; padding-left: 40px; -ms-flex-line-pack: center; align-content: center;}
-#copyright-column {font-size: 20px; text-align: center; padding-right: 10px;}
-.container-photo{width: fit-content;}
+#copyright-column {font-size: 18px; text-align: center; padding-right: 10px;}
 #btn-download{margin-bottom: 300px;} 
+.container-photo{padding-left:0; width: fit-content;}
 .button-order{padding-bottom: 400px;}
 .form-container{margin-bottom: 400px;}
 .button-contact{padding-bottom: 350px;}
 }
     
     /*--Tablets--*/
-    @media (max-width: 991.98px) {#social-column{text-align: center; padding-left: 40px; -ms-flex-line-pack: center; align-content: center;}}
+    @media (max-width: 991.98px) {#copyright-column {font-size: 18px; text-align: center; padding: 5px 10px 10px;} 
+    #social-column{text-align: center; padding-left: 40px; -ms-flex-line-pack: center; align-content: center;}}
