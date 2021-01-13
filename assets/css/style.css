@@ -109,7 +109,7 @@ padding-top: 30px;}
 #btn-read:hover {background-color: rgba(236,240, 241, 1);}
 
 /*--Home page Hero images--*/
-.hero-images {padding-bottom: 200px;}
+.hero-image {padding-top: 40px; padding-bottom: 200px;}
 /*--Footer--*/
 .bg-color-footer {background-color: rgba(236,240, 241, 1);}
 /*--Credit for fixed footer at the bottom of the page: https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page --*/
