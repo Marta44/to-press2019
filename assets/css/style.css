@@ -167,6 +167,7 @@ font-weight: 400;
 text-align: center;
 font-size: 30px;
 padding-top: 100px; padding-bottom: 30px;}
+.gallery-subheadings{font-size: 30px; font-family: 'Caveat', cursive; text-align: center; font-weight: 600;}
 .button-order{padding-bottom: 300px; text-align: center; padding-top: 40px;}
 #btn-order{border: 1px solid gray; background-color: #ca2f2f; font-weight: 600;}
 #btn-order:hover{background-color:  rgba(236,240, 241, 1);}
