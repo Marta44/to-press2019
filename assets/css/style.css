@@ -109,7 +109,7 @@ padding-top: 30px;}
 #btn-read:hover {background-color: rgba(236,240, 241, 1);}
 
 /*--Home page Hero images--*/
-.hero-image {padding-top: 40px; padding-bottom: 200px;}
+.hero-image {padding-top: 40px;}
 /*--Footer--*/
 .bg-color-footer {background-color: rgba(236,240, 241, 1);}
 /*--Credit for fixed footer at the bottom of the page: https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page --*/
@@ -254,7 +254,6 @@ font-size: 80%;}
 @media (max-width: 767.98px){.overlay-box {width: 170px;height: 165px; padding-top: 20px;}
     #overlay-title {font-size: 20px; vertical-align: middle;}
     #overlay-subtext {font-size: 20px; text-align: center;}
-    .hero-images{padding-bottom: 400px;}
       .footer{position: fixed; height: 320px;
 width: 100%;
 font-size: 20px; bottom: 0;}
