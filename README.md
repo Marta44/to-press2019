@@ -108,11 +108,11 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - On every page is present a header logo of the business brand (top-left), if clicked brings the user back to the landing page as they expect.
 - On every page is present a header navigation bar, fixed and centered, that allows the user to navigate easily through the different sections.
 - On every page is present in the navigation bar a language switcher to select the preferred language (English or Italian).
-- On every page is present a fixed footer, which provides business copyright info and social media pages icons (bottom-right), if clicked it brings the user to social media platforms opened on a different tab.
+- On every page is present a fixed footer, which provides a newsletter sign up section(bottom-left), the business copyright info (bottom-center) and social media pages icons (bottom-right), if clicked it brings the user to social media platforms opened on a different tab.
 - On every page is present a call to action button which leads the user to the next step.
 - On the "Landing page" is present a promotional video of the artists in their studio. It keeps the users engaged and invites them to look through the website's contents.
-- On the "About Us" section is provided a downloadable PDF version of the artists' CV/portfolio that gets opened in another tab.
-- On the "Gallery page" is present a preview of the artworks, if clicked opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images.
+- On the "About Us" section is provided a downloadable PDF version of the artists' brochure that gets opened in another tab.
+- On the "Gallery page" is present a small preview of the artworks, if clicked opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images.
 - On the "Contact page" is present a form which allows users to get in touch with the artists uploading images or files together with their request message.
 
 ### Features to add in future
@@ -144,8 +144,10 @@ The images have been carefully selected to be eye-catching, appealing and compel
 ---
 ## Testing
 ### Bugs and challenges during the project
-- I run into some issues placing the language buttons in the navigation bar. On tablet screens (min-width:768px-max-width:1024px)they were stack one above the other and on phone view (min-width:320px-max-width:768px) they were placed under the logo. I overcome this problem:...
-- Another challenge has been to insert the newsletter in the footer. The layout wasn't responsive and the footer didn't stay stick to bottom so I tried to insert the newsletter in the "About us" page because is one of the most visited pages but I didn't like the effect. I tried a three columns layout on large screens and to order the items in vertical on phones and tablets. With @media queries I styled the footer to make it responsive.
+- I run into some issues placing the language buttons in the navigation bar. I tried to place them on the left, next to the logo, but I didn't like this solution and they were falling into the collapsible navbar. After asking an advice to the tutor Igor Basuga I placed them on the right on large screens and now are still in the collapsible navbar but also visible outside it, under the logo, if the toggle menu is not pressed.
+- Another challenge has been to insert the newsletter in the footer. The layout wasn't responsive and the footer didn't stay stick to bottom so I tried to insert the newsletter in the "About us" page because is one of the most visited pages but I didn't like the effect. At the end I tried a three columns layout on large screens and to order the items in vertical on phones and tablets. With @media queries I styled the footer to make it responsive.
+-In "Customize" page I used Bootstrap cards to present three different typologies of personalization and the different height of the cards is made intentionally and on purpose to fit the text.
+
 ---
 ## Deployment
 ---
