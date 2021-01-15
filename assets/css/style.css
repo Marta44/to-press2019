@@ -19,7 +19,7 @@ Josefin Slab: weight 400-700, general font serif
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Cormorant:wght@400;500;600;700&family=Exo:wght@400;500;600;700&family=Fredericka+the+Great&family=Josefin+Slab:wght@400;500;600;700&display=swap');
 
 body {font-family: 'Josefin Slab', serif; color:#778899;
-background-color: #EFE7DB;}
+background-color: #F5F5F5;}
 p {font-family: 'Josefin Slab', serif;
 font-size: 20px;
 font-weight: 600;}
@@ -42,7 +42,7 @@ text-align: center;}
 font-weight: bold;
 text-align: center;}
 .navbar .navbar-brand {width: 80px; height: 30px; margin-top: 5px; margin-bottom: 20px;}
-.bg-color-navbar {background-color: rgba(236,240, 241, 1);}
+.bg-color-navbar {background-color: #e8e9ea;}
 .navbar-nav .nav-item .nav-link:hover {color: #ca2f2f;}
 .navbar-buttons .btn {display: -webkit-box;display: -ms-flexbox;display: inline-block;
     padding: 5px;
@@ -76,7 +76,7 @@ padding-top: 30px;}
     left: 0px;
     width: 400px;
     height: 170px;
-    background-color: rgba(236,240, 241, 1);
+    background-color: #e8e9ea;
     opacity: 0.7;
 z-index: 1;
 border-radius: 20px;}
@@ -106,12 +106,12 @@ text-transform: uppercase;
 font-size: 30px;
 padding-top: 30px;}
 #btn-read{border: 1px solid gray; background-color: #ca2f2f; font-weight: 600;}
-#btn-read:hover {background-color: rgba(236,240, 241, 1);}
+#btn-read:hover {background-color: #e8e9ea;}
 
 /*--Home page Hero images--*/
 .hero-image {padding-top: 40px;}
 /*--Footer--*/
-.bg-color-footer {background-color: rgba(236,240, 241, 1);}
+.bg-color-footer {background-color: #e8e9ea;}
 /*--Credit for fixed footer at the bottom of the page: https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page --*/
 .footer{position: fixed;
 height: 150px;
@@ -119,8 +119,8 @@ width: 100%;
 font-size: 20px; bottom: 0;}
 .footer-heading {font-size: 25px;
     padding-top: 15px;}
-    .btn-signup{background-color: #ca2f2f;}
-     .btn-signup:hover{background-color: #EFE7DB;}
+    .btn-signup{background-color: #ca2f2f; color: black;}
+     .btn-signup:hover{background-color: #fafafa; color: black;}
 #copyright-column{display: inline-block;
     -ms-flex-line-pack: end;
         align-content: flex-end;
@@ -159,7 +159,7 @@ font-weight: 600; text-align: center; padding-bottom: 20px; padding-left: 20px;}
 justify-items: center;padding-bottom: 50px; padding-left: 20px;}
 #btn-download {text-align: center;
 border: 1px solid gray; background-color: #ca2f2f; font-weight: 600; margin-bottom: 150px;}
-#btn-download:hover {background-color: rgba(236,240, 241, 1);}
+#btn-download:hover {background-color: #e8e9ea;}
 /*--Gallery page--*/
 #gallery-heading {font-family: 'Fredericka the Great', cursive;
 text-transform: uppercase;
@@ -170,7 +170,7 @@ padding-top: 100px; padding-bottom: 30px;}
 .gallery-subheadings{font-size: 30px; font-family: 'Caveat', cursive; text-align: center; font-weight: 600;}
 .button-order{padding-bottom: 300px; text-align: center; padding-top: 40px;}
 #btn-order{border: 1px solid gray; background-color: #ca2f2f; font-weight: 600;}
-#btn-order:hover{background-color:  rgba(236,240, 241, 1);}
+#btn-order:hover{background-color: #e8e9ea;}
 
 /*--Customize your product page--*/
 .customize{text-align: center; justify-content: center;}
@@ -185,14 +185,14 @@ font-size: 30px;
 font-weight: 600; text-align: center; padding-bottom: 20px;}
 .customize-process {text-align: center; justify-items: center; padding-top: 60px; padding-bottom: 60px;}
 .customize-icons{color: #ca2f2f;}
-.card{height: fit-content; background-color: rgba(236,240, 241, 1); margin-bottom:40px;}
+.card{height: fit-content; background-color: #e8e9ea; margin-bottom:40px;}
 
 /*--Credit for images display into the cards: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width --*/
 .card-img-top{width: 100%; height: 100%; object-fit: cover;}
 .card-title{color: #ca2f2f;}
 .button-contact {text-align: center; justify-content: center; padding-bottom: 200px; padding-top: 20px;}
 #btn-contact-design {border: 1px solid gray; background-color: #ca2f2f; font-weight: 600;}
-#btn-contact-design:hover{background-color:  rgba(236,240, 241, 1);}
+#btn-contact-design:hover{background-color:  #e8e9ea;}
 /*--Contact page--*/
 /*-- Credit for full page background image: https://css-tricks.com/perfect-full-page-background-image/ --*/
 .bg-img {position: fixed;
@@ -229,7 +229,7 @@ color: black;
 font-size: 13px;}
 .btn-submit{border: 1px solid gray;
 background-color: #ca2f2f;}
-.btn-submit:hover{background-color: #EFE7DB;}
+.btn-submit:hover{background-color: #fafafa;}
 
     /*--Media Queries--*/
 /*--Phones--*/

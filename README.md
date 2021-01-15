@@ -88,9 +88,9 @@ The structure is simple and follows a linear narrative. This allows the users to
 
 It plays with neutral light colours which invoke earth-tones and clay's hues:
 
-* I've chosen a soft Crown Paint Beige Light color (#EFE7DB) for backgrounds because evokes the paper label they attach to their artworks.
+* I've chosen White Smoke color (#F5F5F5) for backgrounds because most of their ceramics are white and this creates a uniform view.
 * I've used Light Slate Gray (#778899) for body-text to make it outstanding and because evokes clay's color.
-* I've chosen Porcelain color (rgba 236,240,241,1) for the navigation bar background and the footer.
+* I've chosen Porcelain color (#e8e9ea) for the navigation bar background and the footer.
 * I've chosen Benjamin Moore Red color (#ca2f2f) for the links in the navbar and for the main headings because reminds the color of their logo.
 
 **Typography**
@@ -172,7 +172,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 
 ### Code
 ### Content
-- The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi.
+- The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi. The italian version has been written by the artists Elisabetta Schiavini and Sabrina Cardani, proofread and adapted by Marta Marassi.
 - The text and headings in the rest of the website were created by Marta Marassi.
 ### Media
 - All the images used in the website were created by Elisabetta Schiavini and Sabrina Cardani.
