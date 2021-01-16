@@ -120,7 +120,7 @@ font-size: 20px; bottom: 0;}
 .footer-heading {font-size: 25px;
     padding-top: 15px;}
     .btn-signup{background-color: #ca2f2f; color: black;}
-     .btn-signup:hover{background-color: #fafafa; color: black;}
+     .btn-signup:hover{background-color: #f8f1e7; color: black;}
 #copyright-column{display: inline-block;
     -ms-flex-line-pack: end;
         align-content: flex-end;

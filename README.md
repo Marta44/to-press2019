@@ -146,7 +146,8 @@ The images have been carefully selected to be eye-catching, appealing and compel
 ### Bugs and challenges during the project
 - I run into some issues placing the language buttons in the navigation bar. I tried to place them on the left, next to the logo, but I didn't like this solution and they were falling into the collapsible navbar. After asking an advice to the tutor Igor Basuga I placed them on the right on large screens and now are still in the collapsible navbar but also visible outside it, under the logo, if the toggle menu is not pressed.
 - Another challenge has been to insert the newsletter in the footer. The layout wasn't responsive and the footer didn't stay stick to bottom so I tried to insert the newsletter in the "About us" page because is one of the most visited pages but I didn't like the effect. At the end I tried a three columns layout on large screens and to order the items in vertical on phones and tablets. With @media queries I styled the footer to make it responsive.
--In "Customize" page I used Bootstrap cards to present three different typologies of personalization and the different height of the cards is made intentionally and on purpose to fit the text.
+- On "Gallery" page at the beginning I placed 6 images every row divided into categories on large screen and col-6 on small screens but they seemed too many pictures. So I decided to use Fancybox preview which allowed me to display only three images per row on large screens and hide the rest of the pictures. Only if we click an image Fancybox viewer let us see all the collection.
+- On "Customize" page I used Bootstrap cards to present three different typologies of personalization and the different height of the cards is made intentionally and on purpose to fit the text.
 
 ---
 ## Deployment
