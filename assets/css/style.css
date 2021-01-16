@@ -42,7 +42,6 @@ h3{
     font-weight: 600; 
     text-align: center;
 }
-
 /*--Links--*/
 a {
     font-weight: bold; 
@@ -53,66 +52,54 @@ a:hover, a:focus, a:active {
     text-decoration: none; 
     color: #ca2f2f;
 }
-
 /*--Buttons--*/
 .navbar-buttons .btn{
-    display: -webkit-box;display: -ms-flexbox;display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-block;
     padding: 5px;
     font-size: 10px;
     font-weight: 700;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
     border: 1px solid #778899;
     background-color: #fafafa;
-    text-decoration: none;
-    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
-.btn:visited, .btn:hover, .btn:focus, .btn:active {
+.btn:visited, .btn:hover, .btn:focus {
     background-color: #ca2f2f;
     border: 1px solid #778899;
 }
 .button-order{
     padding-bottom: 300px;
-     text-align: center; 
-     padding-top: 40px;
-    }
+    text-align: center; 
+    padding-top: 40px;
+}
 .button-contact {
     text-align: center; 
     -webkit-box-pack: center; 
     -ms-flex-pack: center; 
-     justify-content: center;
      padding-bottom: 200px; 
      padding-top: 20px;
-    }
-.btn-signup{
-    background-color: #ca2f2f;
-     color: black;
-    }
-.btn-signup:hover{
-    background-color: #efe7db; 
-    color: black;
 }
-#btn-read, #btn-order, #btn-contact-design, #btn-submit, #btn-download{
+#btn-read, #btn-order, #btn-contact-design, #btn-submit, #btn-download, .btn-signup{
     border: 1px solid gray; 
     background-color: #ca2f2f; 
     font-weight: 600;
+    text-align: center;
 }
-#btn-download {
-    text-align: center; 
+#btn-download { 
     margin-bottom: 150px;
 }
 #btn-read:hover, #btn-download:hover, #btn-contact-design:hover, #btn-order:hover{
     background-color: #e8e9ea;
 }
+.btn-signup:hover{
+    background-color: #efe7db; 
+    color: black;
+}
 #btn-submit:hover{
     background-color: #fafafa;
 }
-
-
 /*--Navbar--*/
 .container {
     position: relative;
@@ -127,7 +114,6 @@ a:hover, a:focus, a:active {
 .nav-link {
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
-    text-align: center;
 }
 .navbar .navbar-brand {
     width: 80px; 
@@ -141,7 +127,6 @@ a:hover, a:focus, a:active {
 .navbar-nav .nav-item .nav-link:hover {
     color: #ca2f2f;
 }
-
 /*--Home page Hero Video--*/
 /*--Credit for full-width video: https://warwick.ac.uk/services/its/intranet/projects/webdev/sandbox/matmannion/fullwidth-video/ --*/
 .video {
@@ -179,14 +164,11 @@ a:hover, a:focus, a:active {
     font-size: 25px;
     text-align: center;
 }
-
-
 /*--Home page content--*/
 .content-container {
     text-align: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
     margin-right: 30px;
     margin-top: 20px;
 }
@@ -205,12 +187,10 @@ hr {
 #mission-heading {
     padding-top: 30px;
 }
-
 /*--Home page Hero images--*/
 .hero-image {
     padding-top: 40px;
 }
-
 /*--About page--*/
 #about-heading {
     padding-top: 120px;
@@ -240,17 +220,14 @@ hr {
     text-align: center; 
     -webkit-box-pack: center; 
     -ms-flex-pack: center; 
-    justify-content: center;
     font-weight: 600;
     padding-bottom: 10px;
     }
 .download-brochure {
     text-align: center;
-    justify-items: center;
     padding-bottom: 50px; 
     padding-left: 20px;
 }
-
 /*--Gallery page--*/
 #gallery-heading {
     padding-top: 100px; 
@@ -264,12 +241,9 @@ hr {
     align-content: center; 
     text-align: center;
 }
-
-
 /*--Customize your product page--*/
 .customize{
     text-align: center; 
-    justify-content: center;
 }
 #customize-heading {
     padding-top: 100px;
@@ -293,7 +267,6 @@ hr {
      background-color: #e8e9ea; 
      margin-bottom:40px;
 }
-
 /*--Credit for images display into the cards: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width --*/
 .card-img-top{
     width: 100%;
@@ -304,7 +277,6 @@ hr {
 .card-title{
     color: #ca2f2f;
 }
-
 /*--Contact page--*/
 /*-- Credit for full page background image: https://css-tricks.com/perfect-full-page-background-image/ --*/
 .bg-img {
@@ -316,23 +288,18 @@ hr {
     z-index: -1;
     opacity: 0.9;
 }
-
 .contact-bg-color {
     background-color: #fafafa;
 }
-
 #contact-heading {
     font-weight: 500;
     padding-top: 80px;
 }
-
 #contact-subheading {
-    font-family: 'Josefin Slab', serif;
     color: #ca2f2f;
     font-size: 20px;
     font-weight: bolder;
     text-align: center;}
-
 .form-container {
     background-color: #fafafa;
     opacity: 0.7;
@@ -345,8 +312,6 @@ hr {
     color: black;
     font-size: 13px;
 }
-
-
 /*--Footer--*/
 .bg-color-footer {
     background-color: #e8e9ea;
@@ -358,15 +323,13 @@ hr {
     width: 100%;
     font-size: 20px;
     bottom: 0;
-    }
+}
 .footer-heading {
     font-family: 'Josefin Slab', serif;
     font-size: 25px;
     padding-top: 15px; 
-    text-transform: none; 
-    text-align: center;
-}
-    
+    text-transform: none;
+}    
 #copyright-column{
     display: inline-block;
     -ms-flex-line-pack: end;
@@ -377,24 +340,19 @@ hr {
 }
 #social-column {
     display: inline-block;
-     text-align: center;
+    text-align: center;
     font-size: 18px; 
     padding-left: 120px;
 }
 .social-links{
     display: inline;
-     font-size: 30px; 
-     -webkit-box-align: start;
-      -ms-flex-align: start; 
-      align-items: start;
+    font-size: 30px; 
 }
 .fab:hover {
     -webkit-transform: scale(1.4);
      -ms-transform: scale(1.4); 
      transform: scale(1.4);
 }
-
-
     /*--Media Queries--*/
 /*--Phones--*/
 @media (max-width: 575.98px){
@@ -407,44 +365,17 @@ hr {
         margin-top: 10px; 
         padding-top: 20px;
     }
-    #overlay-title {
-        font-size: 20px;
-        vertical-align: middle;
-        }
-    #overlay-subtext {
-        font-size: 20px; 
-        text-align: center;
-    }
-    .footer-heading {
-        font-size: 25px; 
-        padding-left: 40px;
-        text-align: center;
-    }
-    #newsletter-column{
-        text-align: center;
-        -ms-flex-line-pack: center;
-        align-content: center;
-    }
     #social-column{
         text-align: center; 
         -ms-flex-line-pack: center; 
         align-content: center; 
         width: 80%;
     }
-    .social-links {
-        font-size: 30px;
-    }
-    .about-text{
-        text-align: justify;
-        width: 100%;
-    }
     .download-brochure {
-        text-align: center;
-        justify-items: center; 
         padding-left: 60px;
     }
     .form-container{
-        max-width: 80%;
+        max-width: 85%;
     }   
     #contact-heading{
         padding-top: 100px;
@@ -453,8 +384,7 @@ hr {
     .btn-submit{
         padding: 2px 4px;
         font-size: 80%;}
-}
-
+    }
 /*--Landscape phones--*/
 @media (max-width: 767.98px){
     .overlay-box {
@@ -462,66 +392,37 @@ hr {
         height: 165px; 
         padding-top: 20px;
     }
-    #overlay-title {
+    #overlay-title, #overlay-subtext {
         font-size: 20px; 
         vertical-align: middle;
     }
-    #overlay-subtext {
-        font-size: 20px; 
-        text-align: center;
-    }
-      .footer{
-        position: fixed;
+    .footer{
         height: 320px;
         width: 100%;
-        font-size: 20px; 
-        bottom: 0;
     }
     #newsletter-column{
         margin-left: 10px;
     }
-    #social-column{
-        text-align: end; 
-        padding-left: 40px;
-        -ms-flex-line-pack: center;
-        align-content: center;
-    }
-    #copyright-column {
-        font-size: 18px;
-        text-align: center;
-        padding-right: 10px;
-    }
     #btn-download{
         margin-bottom: 300px;
     } 
-     .container-photo{
+    .container-photo{
         padding-left:0;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
     }
-    .button-order{
+    .button-order, .button-contact{
         padding-bottom: 400px;
     }
     .form-container{
         margin-bottom: 400px;
     }
-    .button-contact{
-        padding-bottom: 350px;
-    }
 }
-    
     /*--Tablets--*/
     @media (max-width: 991.98px) {
     #copyright-column {
-        font-size: 18px; 
         text-align: center; 
         padding: 5px 10px 10px;
     } 
     #social-column{
-        text-align: center; 
         padding-left: 40px;
-        -ms-flex-line-pack: center; 
-        align-content: center;
     }
     }
