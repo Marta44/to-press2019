@@ -6,8 +6,8 @@
 */
 
 /*--UX Colors
- Light beige shade: #EFE7DB Crown Paint Beige Light
- Light grey shades: #ecf0f1 Porcelain color
+ Light beige shade: #f8f1e7 Faux-linen 
+ Light grey shades: #e8e9ea Porcelain
  Red Shade: #ca2f2f Benjamin Moore Red
  Grey shades: #778899 Light Slate Gray
 --*/
@@ -19,7 +19,7 @@ Josefin Slab: weight 400-700, general font serif
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Cormorant:wght@400;500;600;700&family=Exo:wght@400;500;600;700&family=Fredericka+the+Great&family=Josefin+Slab:wght@400;500;600;700&display=swap');
 
 body {font-family: 'Josefin Slab', serif; color:#778899;
-background-color: #F5F5F5;}
+background-color: #f8f1e7;}
 p {font-family: 'Josefin Slab', serif;
 font-size: 20px;
 font-weight: 600;}

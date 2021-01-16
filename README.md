@@ -88,7 +88,7 @@ The structure is simple and follows a linear narrative. This allows the users to
 
 It plays with neutral light colours which invoke earth-tones and clay's hues:
 
-* I've chosen White Smoke color (#F5F5F5) for backgrounds because most of their ceramics are white and this creates a uniform view.
+* I've chosen Faux-Linen beige color (#f8f1e7) for backgrounds because I picked it from this picture of their ceramics ![Ceramic leaves](/assets/images/ToPress-leaves.png "Ceramic leaves") using this Website [Ginifab](https://www.ginifab.com/feeds/pms/pms_color_in_image.php).
 * I've used Light Slate Gray (#778899) for body-text to make it outstanding and because evokes clay's color.
 * I've chosen Porcelain color (#e8e9ea) for the navigation bar background and the footer.
 * I've chosen Benjamin Moore Red color (#ca2f2f) for the links in the navbar and for the main headings because reminds the color of their logo.
@@ -112,7 +112,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - On every page is present a call to action button which leads the user to the next step.
 - On the "Landing page" is present a promotional video of the artists in their studio. It keeps the users engaged and invites them to look through the website's contents.
 - On the "About Us" section is provided a downloadable PDF version of the artists' brochure that gets opened in another tab.
-- On the "Gallery page" is present a small preview of the artworks, if clicked opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images.
+- On the "Gallery page" is present a small preview of the artworks, if clicked opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images. I have used Fancybox preview so some of the images are hidden. If we click on one of the displayed images we have access to the whole collection.
 - On the "Contact page" is present a form which allows users to get in touch with the artists uploading images or files together with their request message.
 
 ### Features to add in future
