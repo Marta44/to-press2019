@@ -295,7 +295,7 @@ hr {
 }
 #contact-subheading {
     color: #ca2f2f;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
     text-align: center;
 }
@@ -305,11 +305,10 @@ hr {
     max-width: 60%;
     opacity: 0.7;
 }
-.form-group{
+.form-group, .form-control{
     color: black;
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
 }
 /*--Footer--*/
 .bg-color-footer {
