@@ -6,10 +6,10 @@
 */
 
 /*--UX Colors
- Light beige shade: #efe7db 
- Light grey shades: #e8e9ea Porcelain
- Red Shade: #ca2f2f Benjamin Moore Red
- Grey shades: #778899 Light Slate Gray
+Light beige shade: #efe7db 
+Light grey shades: #e8e9ea Porcelain
+Red Shade: #ca2f2f Benjamin Moore Red
+Grey shades: #778899 Light Slate Gray
 --*/
 
 /*--Google Fonts:
@@ -32,9 +32,9 @@ p {
 h2{
     color: #ca2f2f; 
     font-family: 'Fredericka the Great', cursive; 
-    text-transform: uppercase;
     font-size: 30px; 
     text-align: center;
+    text-transform: uppercase;
 }
 h3{
     font-family: 'Caveat', cursive;
@@ -44,16 +44,17 @@ h3{
 }
 /*--Links--*/
 a {
+    color: #778899;
     font-weight: bold; 
     text-decoration:none;
-     color: #778899;
 }
 a:hover, a:focus, a:active {
-    text-decoration: none; 
     color: #ca2f2f;
+    text-decoration: none; 
 }
 /*--Buttons--*/
 .navbar-buttons .btn{
+    color: #333;
     display: -webkit-box;
     display: -ms-flexbox;
     display: inline-block;
@@ -71,15 +72,16 @@ a:hover, a:focus, a:active {
 }
 .button-order{
     padding-bottom: 300px;
-    text-align: center; 
     padding-top: 40px;
+    text-align: center; 
 }
 .button-contact {
+    padding-bottom: 200px; 
+    padding-top: 20px;
     text-align: center; 
-    -webkit-box-pack: center; 
+    -webkit-box-pack: center;
+    -moz-box-pack: center; 
     -ms-flex-pack: center; 
-     padding-bottom: 200px; 
-     padding-top: 20px;
 }
 #btn-read, #btn-order, #btn-contact-design, #btn-submit, #btn-download, .btn-signup{
     border: 1px solid gray; 
@@ -115,7 +117,7 @@ a:hover, a:focus, a:active {
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
 }
-.navbar .navbar-brand {
+.navbar-brand .navbar {
     width: 80px; 
     height: 30px; 
     margin-top: 5px; 
@@ -130,47 +132,48 @@ a:hover, a:focus, a:active {
 /*--Home page Hero Video--*/
 /*--Credit for full-width video: https://warwick.ac.uk/services/its/intranet/projects/webdev/sandbox/matmannion/fullwidth-video/ --*/
 .video {
-    position: relative;
+    height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
     overflow: hidden;
-    z-index: 0;
     padding-top: 30px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
 }
 .overlay-box{
+    background-color: #efe7db;
+    border-radius: 20px;
+    height: 170px;
+    opacity: 0.7;
     position: absolute;
     top: 70px;
-    left: 0px;
     width: 400px;
-    height: 170px;
-    background-color: #efe7db;
-    opacity: 0.7;
     z-index: 1;
-    border-radius: 20px;
 }
 #overlay-title{
     color: #ca2f2f; 
     font-family: 'Fredericka the Great', cursive; 
     font-size: 40px; 
     font-weight: 400;
-    z-index: 2; 
-    text-align: center; 
     margin-top: 20px;
+    text-align: center; 
+    z-index: 2; 
 }
 #overlay-subtext {
-    color: #ca2f2f; font-family: 'Caveat', cursive;
+    color: #ca2f2f; 
+    font-family: 'Caveat', cursive;
     font-size: 25px;
     text-align: center;
 }
 /*--Home page content--*/
 .content-container {
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     margin-right: 30px;
     margin-top: 20px;
+    text-align: center;
+    -moz-box-pack: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
 }
 #intro-content {
     font-family: 'Caveat', cursive;
@@ -179,10 +182,10 @@ a:hover, a:focus, a:active {
 }
 hr {        
     border:none;
-    width: 150px;
     height:15px;
     -webkit-box-shadow: 0 5px 5px -5px #333;
             box-shadow: 0 5px 5px -5px #333;
+    width: 150px;
 }
 #mission-heading {
     padding-top: 30px;
@@ -199,17 +202,17 @@ hr {
     padding-bottom: 20px;
 }
 .about-text {
-    text-align: justify; 
     padding-bottom: 30px;
+    text-align: justify; 
 }
 .container-photo{
-    padding-bottom: 40px; 
-    padding-left: 200px; 
     -webkit-box-align: center; 
     -ms-flex-align: center; 
     align-items: center;
     -ms-flex-line-pack: center;
     align-content: center;
+    padding-bottom: 40px; 
+    padding-left: 200px; 
     }
 #about-activities{
     padding-bottom: 20px; 
@@ -217,28 +220,23 @@ hr {
 }
 .activities-list{
     font-size: 20px; 
+    font-weight: 600;
+    padding-bottom: 10px;
     text-align: center; 
     -webkit-box-pack: center; 
     -ms-flex-pack: center; 
-    font-weight: 600;
-    padding-bottom: 10px;
     }
 .download-brochure {
-    text-align: center;
     padding-bottom: 50px; 
     padding-left: 20px;
+    text-align: center;
 }
 /*--Gallery page--*/
 #gallery-heading {
-    padding-top: 100px; 
     padding-bottom: 30px;
+    padding-top: 100px; 
 }
 .gallery{
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; 
-    -ms-flex-line-pack: center; 
-    align-content: center; 
     text-align: center;
 }
 /*--Customize your product page--*/
@@ -252,41 +250,41 @@ hr {
     padding-bottom: 20px;
 }
 .customize-process {
-    text-align: center; 
     justify-items: center; 
-    padding-top: 60px; 
     padding-bottom: 60px;
+    padding-top: 60px; 
+    text-align: center; 
 }
 .customize-icons{
     color: #ca2f2f;
 }
 .card{
+    background-color: #e8e9ea; 
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-     background-color: #e8e9ea; 
-     margin-bottom:40px;
+    margin-bottom:40px;
 }
 /*--Credit for images display into the cards: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width --*/
 .card-img-top{
+    height: 100%; 
+    -o-object-fit: cover; 
+    object-fit: cover;
     width: 100%;
-     height: 100%; 
-     -o-object-fit: cover; 
-     object-fit: cover;
-    }
+}
 .card-title{
     color: #ca2f2f;
 }
 /*--Contact page--*/
 /*-- Credit for full page background image: https://css-tricks.com/perfect-full-page-background-image/ --*/
 .bg-img {
+    left: 0;
+    max-height: 100%;
+    min-width: 100%;
+    opacity: 0.9;
     position: fixed;
     top: 0;
-    left: 0;
-    min-width: 100%;
-    max-height: 100%;
     z-index: -1;
-    opacity: 0.9;
 }
 .contact-bg-color {
     background-color: #fafafa;
@@ -299,18 +297,19 @@ hr {
     color: #ca2f2f;
     font-size: 20px;
     font-weight: bolder;
-    text-align: center;}
+    text-align: center;
+}
 .form-container {
-    background-color: #fafafa;
-    opacity: 0.7;
-    max-width: 60%; 
+    background-color: #fafafa; 
     margin-bottom: 180px;
+    max-width: 60%;
+    opacity: 0.7;
 }
 .form-group{
-    text-transform: uppercase;
-    font-weight: 600;
     color: black;
     font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 /*--Footer--*/
 .bg-color-footer {
@@ -318,11 +317,11 @@ hr {
 }
 /*--Credit for fixed footer at the bottom of the page: https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page --*/
 .footer{
-    position: fixed;
-    height: 150px;
-    width: 100%;
-    font-size: 20px;
     bottom: 0;
+    font-size: 20px;
+    height: 150px;
+    position: fixed;
+    width: 100%;
 }
 .footer-heading {
     font-family: 'Josefin Slab', serif;
@@ -331,17 +330,17 @@ hr {
     text-transform: none;
 }    
 #copyright-column{
-    display: inline-block;
     -ms-flex-line-pack: end;
     align-content: flex-end;
+    display: inline-block;
+    font-size: 18px;
     text-align: end;
     padding: 30px 100px;
-    font-size: 18px;
 }
 #social-column {
     display: inline-block;
-    text-align: center;
     font-size: 18px; 
+    text-align: center;
     padding-left: 120px;
 }
 .social-links{
@@ -350,8 +349,8 @@ hr {
 }
 .fab:hover {
     -webkit-transform: scale(1.4);
-     -ms-transform: scale(1.4); 
-     transform: scale(1.4);
+    -ms-transform: scale(1.4); 
+    transform: scale(1.4);
 }
     /*--Media Queries--*/
 /*--Phones--*/
@@ -360,10 +359,9 @@ hr {
         margin-top:60px;
     }
     .overlay-box {
-        width: 170px;
         height: 203px; 
-        margin-top: 10px; 
         padding-top: 20px;
+        width: 170px;
     }
     #social-column{
         text-align: center; 
@@ -382,19 +380,18 @@ hr {
     }
 /*--Credit button responsive: https://gist.github.com/raihan004/42b2c14936eba79ee68b --*/
     .btn-submit{
+         font-size: 80%;
         padding: 2px 4px;
-        font-size: 80%;}
+    }
     }
 /*--Landscape phones--*/
 @media (max-width: 767.98px){
     .overlay-box {
+        height: 165px;
         width: 170px;
-        height: 165px; 
-        padding-top: 20px;
     }
     #overlay-title, #overlay-subtext {
-        font-size: 20px; 
-        vertical-align: middle;
+        font-size: 20px;
     }
     .footer{
         height: 320px;
