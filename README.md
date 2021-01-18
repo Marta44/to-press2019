@@ -2,7 +2,7 @@
 
 ## Clay Impressions
 
-[View the live project in GitHub Pages](https://github.com/Marta44/to-press2019)
+[View the live project in GitHub Pages](https://marta44.github.io/to-press2019/)
 ![Image]()
 
 ### Overview
@@ -46,23 +46,23 @@ The website aims to allow customer/s to get in touch with the artists by using a
 - Local Artists goals:
     - As a Local Artist, I look for collaboration projects so I want to contact them showing my portfolio. 
     - As a Local Ceramic Artist, I want to get in touch with the artists and be able to use their laboratory/studio to craft my ceramics.
-    - As a Designer, I want to commit to the artists the production of ceramic series (usually little objects). 
+    - As a Designer, I want to commit to the artists the production of ceramic series (usually little art pieces). 
 ---
 ## Strategy
-The aim of this project is to spread awareness of the two ceramists leading the users to contact them via email or through their social media pages.
+The aim of this project is to spread awareness of the two ceramists leading the users to contact them via a contact form or through their social media pages.
 
 The business goals of this website in order of importance are:
 1. Create an online presence for the two local artists and increase consumer awareness.
 2. Allow potential clients to buy the artworks via a contact form.
 3. Create new opportunities of collaboration with designers and other artists.
-4. Showcase the artists' CV and portfolio to build consumer trust.
+4. Showcase the artists' story and activities to build consumer trust.
 5. Increase number of followers on the artists social media pages.
 
 The customers goals of this website are:
 1. View and inspect the artworks, the product specifics and prices.
 2. Ask for a personalized and customized product. 
 3. Place an order quickly, intuitively and easily.
-4. Sign up in a newsletter to stay updated on their creations.
+4. Sign up for a newsletter to stay updated on their creations.
 
 ## Scope
 I want to offer to the users an overview of the artists mission, artworks and portfolio. The scope of this project is to keep them interested and engaged until they make the decision to get in touch with the artists filling a contact form.
@@ -88,7 +88,7 @@ The structure is simple and follows a linear narrative. This allows the users to
 
 It plays with neutral light colours which invoke earth-tones and clay's hues:
 
-* I've chosen a light beige color (#efe7db) for backgrounds because I picked it from this picture of their ceramics ![Ceramic leaves](/assets/images/ToPress-leaves.png "Ceramic leaves") using this Website [Ginifab](https://www.ginifab.com/feeds/pms/pms_color_in_image.php).
+* I've chosen a light beige color (#efe7db) for backgrounds because I picked it from this picture of their ceramics ![Ceramic leaves](/assets/images/ToPress-leaves.png "Ceramic leaves") using the Website [Ginifab](https://www.ginifab.com/feeds/pms/pms_color_in_image.php).
 * I've used Light Slate Gray (#778899) for body-text to make it outstanding and because evokes clay's color.
 * I've chosen Porcelain color (#e8e9ea) for the navigation bar background and the footer.
 * I've chosen Benjamin Moore Red color (#ca2f2f) for the links in the navbar and for the main headings because reminds the color of their logo.
@@ -99,7 +99,7 @@ It plays with neutral light colours which invoke earth-tones and clay's hues:
 
 **Imagery**
 
-The images have been carefully selected to be eye-catching, appealing and compelling. The purpose is to showcase the most recent and important pieces created by the artists. The artists want the images to clearly show that is possible to personalize the product/object on request. They also wish to transmit that they are ceramic makers and that the decoration aspect is an added value.
+The images have been carefully selected to be eye-catching, appealing and compelling. The purpose is to showcase the most recent and important pieces created by the artists. The artists want the images to clearly show that is possible to personalize the product/object on request. They also wish to transmit that they are ceramic makers and that the decoration aspect is an additional value.
 
 ---
 ## Features
@@ -108,9 +108,10 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - On every page is present a header logo of the business brand (top-left), if clicked brings the user back to the landing page as they expect.
 - On every page is present a header navigation bar, fixed and centered, that allows the user to navigate easily through the different sections.
 - On every page is present in the navigation bar a language switcher to select the preferred language (English or Italian).
-- On every page is present a fixed footer, which provides a newsletter sign up section(bottom-left), the business copyright info (bottom-center) and social media pages icons (bottom-right), if clicked it brings the user to social media platforms opened on a different tab.
-- On every page is present a call to action button which leads the user to the next step.
+- On every page is present a fixed footer, which provides an email input field to sign up for the newsletter(bottom-left), the business copyright info (bottom-center) and social media pages icons (bottom-right), if clicked it brings the user to social media platforms opened on a different tab.
+- On every page is present a call to action button. Except for the downloadable brochure on the about us page the other call to action buttons lead the users across the pages till the contact us form.
 - On the "Landing page" is present a promotional video of the artists in their studio. It keeps the users engaged and invites them to look through the website's contents.
+- On the "Landing page" there are three testimonials to show their clients satisfaction and appreciation.
 - On the "About Us" section is provided a downloadable PDF version of the artists' brochure that gets opened in another tab.
 - On the "Gallery page" is present a small preview of the artworks, if clicked opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images. I have used Fancybox preview so some of the images are hidden. If we click on one of the displayed images we have access to the whole collection.
 - On the "Contact page" is present a form which allows users to get in touch with the artists uploading images or files together with their request message.
@@ -119,9 +120,9 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - The contact form submission button has to be functional when pressed and provide a feedback to the users to make them feel assured(Javascript needed).
 - Add CAPTCHA, a challenge-response authentication, to the contact form to block spammers and bots (Javascript needed).
 - Add General Data Protection Regulation (GDPR), which protects the Privacy Policy of European Union residents (Javascript needed).
-- Add "Ceramic lessons" page. This is a further opportunity for the artists to gain a different income but they need time to organize this activity and to feature its programme.
-- Add "Collaborations and projects" page. Once they build up their network and start to collaborate with more artists is important to dedicate to it a specific section.  
-- Add a further description in the "About us" page about their education and artistic path. 
+- Add "Ceramic lessons" page. This is a further opportunity for the artists but they need time to organize this activity and to feature its programme.
+- Add "Collaborations and projects" page. Once they build up their network and start to collaborate with more artists is important to dedicate to it a specific section. At the moment they collaborate only with a shop called "Madama Vintage" in Gallarate (VA), Italy.
+- Add a further and deeper description in the "About us" page about their education and artistic path.
 ---
 ## Technologies Used
 ### Languages Used
@@ -131,23 +132,37 @@ The images have been carefully selected to be eye-catching, appealing and compel
 ### Frameworks, Libraries and Programs Used
 1. [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) : was used to provide responsiveness on all device sizes and add some stylistic components.
 2. [Hover.css](https://ianlunn.github.io/Hover/) : a third part library used to add the transition effect to social media links in the footer and to the navbar text. 
-3. [FontAwesome](https://fontawesome.com/) : was used to add icons for social media links.
+3. [FontAwesome](https://fontawesome.com/) : was used to add icons for social media links and for the customization process explanation.
 4. [Google Fonts](https://fonts.google.com/) : was used to import typography fonts.
 5. [Balsamiq](https://balsamiq.com/) : was used to create wireframes during the design of the layout.
 6. [jQuery](https://jquery.com/) : was used to make the navbar responsive.
 7. [Popper.js](https://popper.js.org/) : was used to make the navbar responsive.
 8. [AutoPrefixer](https://autoprefixer.github.io/) : was used to analyse the CSS code and make it suitable for all browsers.
-9. [Fancybox](https://fancyapps.com/fancybox/3/) : was used in the "Home Page" and "Gallery" page to view and browse images easily.
+9. [Fancybox](https://fancyapps.com/fancybox/3/) : was used in the "Home Page" for the hero-images and in the "Gallery" page to view and browse images easily.
 10. [Gitpod](https://gitpod.io/) : is the open-source IDE (Integrated Development Environment) that I used to create my project.
 11. [Git](https://git-scm.com/) : was used for version control by utilizing the Gitpod terminal (CLI) to commit to Git and push to GitHub.
 12. [GitHub](https://github.com/) : is a hosting platform used to deploy and store the project code after being pushed from Git.
 ---
 ## Testing
+- I have checked the validity of the code with: 
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validation Service]( https://validator.w3.org/)
+
+- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, FireFox).
+- I've checked its responsiveness on the following mobile devices: ().
+
+### Testing users stories 
+1. As a First Time Visitor of the website I want to learn more about the artists, their mission and what they do. The common path is: starting from the "Home page", read the mission and press the call to action button "read more" to dive into the information of the artists in the "About us page" and see their activities and facilities. Usually a first time visitor wants to explore the gallery of artworks to evaluate their quality and is here that he/she decides if is interested or not. The user can view and find easily all the pages thanks to a clear and linear navigation bar.
+From every page pressing on the logo the user can go back to the home page. The first time visitor can choose the preferred language by clicking the buttons EN-ITA in the navbar. 
+2. As a Returning Visitor I am interested to buy an artwork that I have previously viewed on the "Gallery page" so clicking on "Contact us" I can fill the contact form. Another way to contact the artists is through the social media icons link in the footer. The third way is to download their brochure and here there are their contact information: phone number and email address. A Returning Visitor could be interested about the personalization option so after visiting the page "Personalize your product" can contact the artists with the same procedure.
+3. As a Frequent Visitor I want to stay updated on the artists new creations so I sign up for the newsletter placed in the footer.
+4. As a 
+
 ### Bugs and challenges during the project
-- I run into some issues placing the language buttons in the navigation bar. I tried to place them on the left, next to the logo, but I didn't like this solution and they were falling into the collapsible navbar. After asking an advice to the tutor Igor Basuga I placed them on the right on large screens and now are still in the collapsible navbar but also visible outside it, under the logo, if the toggle menu is not pressed.
+- I run into some issues placing the language buttons in the navigation bar. I tried to place them on the left, next to the logo, but I didn't like this solution and they were falling into the collapsible navbar. After asking an advice to the tutor at Code Institute Igor Basuga I placed them on the right on large screens and now are still in the collapsible navbar but also visible outside it, under the logo, if the toggle menu is not pressed.
 - Another challenge has been to insert the newsletter in the footer. The layout wasn't responsive and the footer didn't stay stick to bottom so I tried to insert the newsletter in the "About us" page because is one of the most visited pages but I didn't like the effect. At the end I tried a three columns layout on large screens and to order the items in vertical on phones and tablets. With @media queries I styled the footer to make it responsive.
 - On "Gallery" page at the beginning I placed 6 images every row divided into categories on large screen and col-6 on small screens but they seemed too many pictures. So I decided to use Fancybox preview which allowed me to display only three images per row on large screens and hide the rest of the pictures. Only if we click an image Fancybox viewer let us see all the collection.
-- On "Customize" page I used Bootstrap cards to present three different typologies of personalization and the different height of the cards is made intentionally and on purpose to fit the text.
+- On "Customize" page I have used Bootstrap cards to present three different typologies of personalization and the different height of the cards is made intentionally and on purpose to fit the text.
 
 ---
 ## Deployment
