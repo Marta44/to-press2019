@@ -165,8 +165,8 @@ From every page pressing on the logo in the navigation bar the user can go back 
 - Call to action button "Read more": hovering over it turns into Porcelain color, the same color of the navbar and the footer. If pressed it links and brings to the "About us" page.
 - Hero-images: are four of the artists most recent creations. I used Fancybox to display these images individually. If we click on one image it opens Fancybox viewer and allows us to move back and forward with the arrows, to zoom an image, to start a slideshow or to open the thumbnails gallery. Every image has a name and the copyright thanks to the data-caption attribute. On phone screens I used col-6 Bootstrap grid system to place two images side by side.
 - Testimonials: are three reviews on large screens and two on phone screens as I used Bootstrap display property ().
-- Footer: the Newsletter email entry field 
-When we press the sign up button it reloads the page. Hovering the "Sign up" button it turns the same color used for the background.
+- Footer: testing the Newsletter if I insert an invalid email address an error message suggests what is missing (the @ or the . dot or the first part of the email). If I try to sign up leaving the email address field empty an error message says "fill in this field". If I insert a valid email address and I press "Sign up" it reloads the page.  
+Hovering the "Sign up" button it turns the same color used for the background.
 The social media links get open in a new tab using target="_blank" and hovering over their icons they turn into red and transform their sizes slightly bigger. The footer is responsive and at the breakpoint of (max-width: 767.98px) the three columns are ordered vertically inverting the order of social media links and of the copyright. In this way the copyright appears at the bottom of the page.  
 #### About us page
 - Artists images: hovering over the images of the two artists it shows the title attribute "Sabrina photo" and "Elisabetta photo". With the alt attribute alone the text didn't appear.
@@ -179,8 +179,8 @@ The social media links get open in a new tab using target="_blank" and hovering 
 - Cards-Images: I used Bootstrap cards to explain three options of personalization. The different height is made on purpose to fit the content. The images have different sizes and I didn't like that under the text there was a large empty space. The cards behave with responsiveness reducing the window width and are displayed stacked on top of each other on phone screens.
 - Call to action button "Contact us and Design with us": hovering over it turns into Porcelain color and it links to the "Contact us" page.
 #### Contact us page
-- Form: trying to submit the form with all the fields empty a message appears saying to fill out this field. 
-- Call to action button "Submit": hovering over it turns into Porcelain color. If clicked it reloads the current page.
+- Form: trying to submit the form with all the fields empty an error message appears saying "fill out this field". Trying to insert an invalid email address an error message suggests which part of the email address is missing. Trying to attach a file or an image the selection process works and the file is uploaded. Trying to fill out the form correctly the form reloads. I added the boolean attribute required to the name, email and text message fields so if they are not filled is not possible to submit the form.
+- Call to action button "Submit": hovering over it turns into Porcelain color. If clicked, after have filled out the form it reloads the current page.
 
 ### Bugs and challenges during the project
 - I run into some issues placing the language buttons in the navigation bar. I tried to place them on the left, next to the logo, but I didn't like this solution and they were falling into the collapsible navbar. After asking an advice to the tutor at Code Institute Igor Basuga I placed them on the right on large screens and now are still in the collapsible navbar but also visible outside it, under the logo, if the toggle menu is not pressed.
@@ -190,6 +190,7 @@ The social media links get open in a new tab using target="_blank" and hovering 
 
 ---
 ## Deployment
+
 ---
 ## Credits
 ### Resources Used
