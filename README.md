@@ -3,7 +3,7 @@
 ## Clay Impressions
 
 [View the live project in GitHub Pages](https://marta44.github.io/to-press2019/)
-![Image]()
+![Responsive screens](/assets/videos/Responsive-Screenrec.mp4)
 
 ### Overview
 
@@ -212,6 +212,10 @@ The social media links get open in a new tab using target="_blank" and hovering 
 - [Resize and crop video](https://ezgif.com/crop-video) and [Compress video](https://www.mp4compress.com/)
 
 ### Code
+- [Css style for hero-video](https://css-tricks.com/full-page-background-video-styles/)
+- [Css style for background-image on Contact page](https://css-tricks.com/perfect-full-page-background-image/)
+- [Css style for fixed footer at the bottom of the page](https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page)
+  https://gist.github.com/raihan004/42b2c14936eba79ee68b
 ### Content
 - The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi. The italian version has been written by the artists Elisabetta Schiavini and Sabrina Cardani, proofread and adapted by Marta Marassi.
 - The text and headings in the rest of the website were created by Marta Marassi.
@@ -221,3 +225,5 @@ The social media links get open in a new tab using target="_blank" and hovering 
 ## Acknowledgements
 - I would like to say thanks to my mentor Ignatius Ukwuoma for his precious advices and continuous help during the project.
 - I would like to thank Igor Basuga, tutor at the Code Institute for his prompt support and assistance.
+
+> **_NOTE:_** This is for educational purposes.

@@ -130,7 +130,7 @@ a:hover, a:focus, a:active {
     color: #ca2f2f;
 }
 /*--Home page Hero Video--*/
-/*--Credit for full-width video: https://warwick.ac.uk/services/its/intranet/projects/webdev/sandbox/matmannion/fullwidth-video/ --*/
+/*--Credit for full-width video: https://css-tricks.com/full-page-background-video-styles/ --*/
 .video {
     height: 100%;
     -o-object-fit: cover;
@@ -265,7 +265,6 @@ hr {
     height: fit-content;
     margin-bottom:40px;
 }
-/*--Credit for images display into the cards: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width --*/
 .card-img-top{
     height: 100%; 
     -o-object-fit: cover; 
@@ -377,9 +376,8 @@ hr {
     #contact-heading{
         padding-top: 100px;
     }
-/*--Credit button responsive: https://gist.github.com/raihan004/42b2c14936eba79ee68b --*/
     .btn-submit{
-         font-size: 80%;
+        font-size: 80%;
         padding: 2px 4px;
     }
     }
