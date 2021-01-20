@@ -198,9 +198,9 @@ hr {
     padding-top: 30px;
 }
 .quotations{
-    align-content: center;
     padding-left: 20px;
     text-align: center;
+    width: 90%;
 }
 /*--Home page Hero images--*/
 .hero-image {
