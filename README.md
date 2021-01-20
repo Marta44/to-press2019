@@ -3,8 +3,7 @@
 ## Clay Impressions
 
 [View the live project in GitHub Pages](https://marta44.github.io/to-press2019/)
-![Responsive screens](/assets/videos/Responsive-Screenrec.mp4)
-
+![Image responsive screens](/assets/images/image-responsive-screen.png)
 ### Overview
 
 This is a user-centric static website for Sabrina Cardani and Elisabetta Schiavini, two ceramic artists based in Italy.
