@@ -76,11 +76,11 @@ The paragraphs with contents and information are not too dense and packed.
 The structure is simple and follows a linear narrative. This allows the users to navigate themselves to the 'Contact us' page keeping their attention with a good UX design.
 
 ## Skeleton
-- [Landing Page wireframe](../assets/wireframes/1Home-page.pdf)
-- [About Us Page wireframe](../assets/wireframes/2About-page.pdf)
-- [Gallery Page wireframe](../assets/wireframes/3Gallery-page.pdf)
-- [Customize your product Page wireframe](../assets/wireframes/4Customize-page.pdf)
-- [Contact Us Page wireframe](../assets/wireframes/5Contact-page.pdf)
+- [Landing Page wireframe](https://marta44.github.io/to-press2019/assets/wireframes/1Home-page.pdf)
+- [About Us Page wireframe](https://marta44.github.io/to-press2019/assets/wireframes/2About-page.pdf)
+- [Gallery Page wireframe](https://marta44.github.io/to-press2019/assets/wireframes/3Gallery-page.pdf)
+- [Customize your product Page wireframe](https://marta44.github.io/to-press2019/assets/wireframes/4Customize-page.pdf)
+- [Contact Us Page wireframe](https://marta44.github.io/to-press2019/assets/wireframes/5Contact-page.pdf)
 
 ## Surface
 **Design Scheme**
