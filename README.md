@@ -148,7 +148,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation Service]( https://validator.w3.org/)
 
-- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, FireFox).
+- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Edge, FireFox).
 - I've checked its responsiveness on the following mobile devices: ().
 
 ### Testing users stories 
@@ -156,7 +156,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 From every page pressing on the logo in the navigation bar the user can go back to the home page. The first time visitor can choose the preferred language by clicking the buttons EN-ITA in the navbar. 
 2. As a **Returning Visitor** I am interested to buy an artwork that I have previously viewed on the "Gallery page" so clicking on "Contact us" I can fill the contact form. Another way to contact the artists is through the social media icons links in the footer. The third way is to download their brochure and here there are their contact information: phone number and email address. A Returning Visitor could be interested about the personalization option so after visiting the page "Personalize your product" can contact the artists with the same procedure.
 3. As a **Frequent Visitor** I want to stay updated on the artists new creations so after visiting the "Gallery" page to see if there are new artworks, I sign up for the newsletter placed in the footer.
-4. As a **Local Artist** I look for collaboration projects or commit to the artists the production of ceramic series. So I go straight to the "Contact us" page because I probably already know personally the artists otherwise after visiting the "About us" page I proceed to contact them. 
+4. As a **Local Artist** I look for collaboration projects or commit to the artists the production of ceramic series. I go straight to the "Contact us" page because I probably already know personally the artists otherwise after visiting the "About us" page I proceed to contact them. 
 
 ### Manual functional testing
 #### Home page
