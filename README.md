@@ -146,10 +146,10 @@ The images have been carefully selected to be eye-catching, appealing and compel
 ## Testing
 - I have checked the validity of the code with: 
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-- [W3C Markup Validation Service]( https://validator.w3.org/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
 
-- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Edge, FireFox).
-- I've checked its responsiveness on the following mobile devices: ().
+- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified a bug as on the "Home page" the hero-images are displayed in an unique vertical column both on large and smaller windows width. On Safari the other issue is that the video is not visible.
+- I've checked its responsiveness on all the emulated devices provided by Chrome Developer Tools. 
 
 ### Testing users stories 
 1. As a **First Time Visitor** of the website I want to learn more about the artists, their mission and what they do. The common path is: starting from the "Home page", read the mission and press the call to action button "read more" to dive into the information of the artists in the "About us page" and see their activities and facilities. Usually a first time visitor wants to explore the gallery of artworks to evaluate the quality and is here that he/she decides if is interested or not in purchasing. The user can view and find easily all the pages thanks to a clear, linear and labelled navigation bar.
@@ -164,7 +164,7 @@ From every page pressing on the logo in the navigation bar the user can go back 
 - Hero-video: is looped, muted and it auto plays. It is 100% width. The overlay box with the title is responsive changing the screen sizes as I styled it with media queries.
 - Call to action button "Read more": hovering over it turns into Porcelain color, the same color of the navbar and the footer. If pressed it links and brings to the "About us" page.
 - Hero-images: are four of the artists most recent creations. I used Fancybox to display these images individually. If we click on one image it opens Fancybox viewer and allows us to move back and forward with the arrows, to zoom an image, to start a slideshow or to open the thumbnails gallery. Every image has a name and the copyright thanks to the data-caption attribute. On phone screens I used col-6 Bootstrap grid system to place two images side by side.
-- Testimonials: are three reviews on large screens and two on phone screens as I used Bootstrap display property ().
+- Testimonials: are three customers reviews. On medium and large screen they display in three columns but on smaller screens instead to use d-none d-sm-block and hide one of them I choose to display them all (col-12) and stack one on top of each other. 
 - Footer: testing the Newsletter if I insert an invalid email address an error message suggests what is missing (the @ or the . dot or the first part of the email). If I try to sign up leaving the email address field empty an error message says "fill in this field". If I insert a valid email address and I press "Sign up" it reloads the page.  
 Hovering the "Sign up" button it turns the same color used for the background.
 The social media links get open in a new tab using target="_blank" and hovering over their icons they turn into red and transform their sizes slightly bigger. The footer is responsive and at the breakpoint of (max-width: 767.98px) the three columns are ordered vertically inverting the order of social media links and of the copyright. In this way the copyright appears at the bottom of the page.  

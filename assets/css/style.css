@@ -135,7 +135,6 @@ a:hover, a:focus, a:active {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    overflow: hidden;
     padding-top: 30px;
     position: relative;
     width: 100%;
@@ -366,11 +365,10 @@ hr {
 /*--Phones--*/
 @media (max-width: 575.98px){
     .video{
-        margin-top:60px;
+        margin-top:50px;
     }
     .overlay-box {
-        height: 203px; 
-        padding-top: 20px;
+        height: 203px;
         width: 170px;
     }
     #social-column{
