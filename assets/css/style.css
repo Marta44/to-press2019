@@ -203,12 +203,6 @@ hr {
 }
 /*--Home page Hero images--*/
 .hero-image {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     padding-top: 40px;
 }
 /*--About page--*/
@@ -343,6 +337,7 @@ hr {
     width: 100%;
 }
 .footer-heading {
+    text-align: center;
     font-family: 'Josefin Slab', serif;
     font-size: 25px;
     padding-top: 15px; 
@@ -365,6 +360,7 @@ hr {
 .social-links{
     display: inline;
     font-size: 30px; 
+    padding-left: 5px;
 }
 .fab:hover {
     -webkit-transform: scale(1.4);
@@ -385,7 +381,7 @@ hr {
         text-align: center; 
         -ms-flex-line-pack: center; 
         align-content: center; 
-        width: 80%;
+        width: 90%;
     }
     .download-brochure {
         padding-left: 60px;

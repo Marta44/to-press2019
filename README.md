@@ -147,7 +147,8 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
 
-- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue as on the "Home page" the hero-images were displayed in an unique vertical column both on large or smaller windows width. The other problem was that on "Customize page" the Bootstrap cards images were stretched and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' not only to the card(the parent element) but also to the card-image itself.
+- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue as on the "Home page" the hero-images were displayed in an unique vertical column in the middle of the screen both on large or smaller windows width. Seemed that Bootstrap grid system wasn't compatible with Internet Explorer.
+The other problem was that on "Customize page" the Bootstrap cards images were stretched and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' not only to the card(the parent element) but also to the card-image itself.
 On Safari the issue was that the hero-video on the "Home page" wasn't visible. 
 - I've checked its responsiveness on all the emulated devices provided by Chrome Developer Tools. 
 
