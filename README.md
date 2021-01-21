@@ -147,7 +147,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
 
-- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified a bug as on the "Home page" the hero-images are displayed in an unique vertical column both on large and smaller windows width. On Safari the other issue is that the video is not visible.
+- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue as on the "Home page" the hero-images were displayed in an unique vertical column both on large and smaller windows width. On Safari the other issue was that the hero-video on the "Home page" wasn't visible. 
 - I've checked its responsiveness on all the emulated devices provided by Chrome Developer Tools. 
 
 ### Testing users stories 
@@ -171,7 +171,8 @@ The social media links get open in a new tab using target="_blank" and hovering 
 - Artists images: hovering over the images of the two artists it shows the title attribute "Sabrina photo" and "Elisabetta photo". With the alt attribute alone the text didn't appear.
 - Call to action button "Download our brochure": hovering over it turns into Porcelain color and if is clicked it downloads the pdf file in English or in Italian if you are on "Chi Siamo" page. The files end in your download default folder and to achieve this I used the download attribute.
 #### Gallery page
-- Gallery Images: I used Fancybox "images-preview" to display only three images for each category. The others three pictures are hidden (display:none attribute) and visible only in the thumbnail gallery. Every image has a name and the copyright thanks to the data-caption attribute. If we click on one image it opens Fancybox viewer and allows us to move back and forward with the arrows, to zoom an image, to start a slideshow or to open the thumbnails gallery. Reducing or expanding the screen size the images behave as expected and are centered. On phone screens the images are occupying the whole width (col-12) and are stacked on top of each other.  
+- Gallery Images: I used Fancybox "images-preview" to display only three images for each category. The others three pictures are hidden (display:none attribute) and visible only in the thumbnail gallery. Every image has a name, the price and the copyright thanks to the data-caption attribute. The "ceramics" and "potteries" images are intentionally without a price because are demonstrative images that show a set of art pieces. A customer interested about a particular ceramic shape can contact the artists and they will quote a price. 
+If we click on one image it opens Fancybox viewer and allows us to move back and forward with the arrows, to zoom an image, to start a slideshow or to open the thumbnails gallery. Reducing or expanding the screen size the images behave as expected and are centered. On phone screens the images are occupying the whole width (col-12) and are stacked on top of each other.  
 - Call to action button "Place an order": hovering over it turns into Porcelain color and it links to the "Contact us" page.
 #### Customize page
 - Customize-icons: I used Fontawesome Icons to explain step by step the personalization process. Reducing and expanding the window width the text and the icons adapt responsively.
@@ -189,7 +190,30 @@ The social media links get open in a new tab using target="_blank" and hovering 
 
 ---
 ## Deployment
+I developed this project using Gitpod, an online IDE (Integrated Development Environment). 
+I have used the following commands throughout the project:
+- git add . or filename (to add the changes and files to a staging area)
+- git commit -m "" (to commit a message about the changes that have been brought)
+- git push (to push the code to GitHub that host my repository)
 
+I deployed the project following these steps:
+1. Log into GitHub
+2. Select my repository: Marta44/to-press2019
+3. Clicked **Settings** and scrolled down to GitHub Pages section
+4. I selected the master branch in the publishing **Source** dropdown menu and pressed **Save**
+5. The website is now published to GitHub Pages and the page refreshed automatically generating my site URL: [Live deployed page](https://marta44.github.io/to-press2019/)
+6. The deployed site will update automatically If I bring changes with new commits.
+
+How to run the code locally: 
+1. Navigate to my project GitHub repository [Follow this link](https://github.com/Marta44/to-press2019)
+2. Click **Code** dropdown menu and you have two options:
+- Clone
+- Download the ZIP file (allows you to extract the files on your local machine)
+3. Clone my repository copying and pasting into the terminal of your preferred editor/local IDE 'git clone https://github.com/Marta44/to-press2019.git'
+4. Press Enter and a clone of this project will be created on your machine.
+5. To remove all references to the remote repository type into your terminal: 'git remote rm origin' or 'git remote remove origin'. This does not remove the repository from the remote server.
+
+[More info about cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 ---
 ## Credits
 ### Resources Used
@@ -215,6 +239,7 @@ The social media links get open in a new tab using target="_blank" and hovering 
 - [Css style for background-image on Contact page](https://css-tricks.com/perfect-full-page-background-image/)
 - [Css style for fixed footer at the bottom of the page](https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page)
   https://gist.github.com/raihan004/42b2c14936eba79ee68b
+
 ### Content
 - The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi. The italian version has been written by the artists Elisabetta Schiavini and Sabrina Cardani, proofread and adapted by Marta Marassi.
 - The text and headings in the rest of the website were created by Marta Marassi.
