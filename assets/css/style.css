@@ -203,6 +203,12 @@ hr {
 }
 /*--Home page Hero images--*/
 .hero-image {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     padding-top: 40px;
 }
 /*--About page--*/
@@ -270,6 +276,9 @@ hr {
     color: #ca2f2f;
 }
 .card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     background-color: #e8e9ea; 
     height: -webkit-fit-content;
     height: -moz-fit-content;
@@ -277,9 +286,10 @@ hr {
     margin-bottom:40px;
 }
 .card-img-top{
-    height: 100%; 
-    -o-object-fit: cover; 
-    object-fit: cover;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
     width: 100%;
 }
 .card-title{
