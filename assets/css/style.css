@@ -71,8 +71,8 @@ a:hover, a:focus, a:active {
     border: 1px solid #778899;
 }
 .button-order{
-    padding-bottom: 300px;
-    padding-top: 40px;
+    margin-bottom: 100px;
+    margin-top: 20px;
     text-align: center; 
 }
 .button-contact {
@@ -83,24 +83,21 @@ a:hover, a:focus, a:active {
     -moz-box-pack: center; 
     -ms-flex-pack: center; 
 }
-#btn-read, #btn-order, #btn-contact-design, #btn-submit, #btn-download, .btn-signup{
+.button-submit{
+    margin-top: 20px;
+}
+#btn-read, #btn-order, #btn-contact-design, #btn-submit, #btn-download, #btn-signup{
     border: 1px solid gray; 
     background-color: #ca2f2f; 
+    color: #fafafa;
     font-weight: 600;
     text-align: center;
 }
 #btn-download { 
     margin-bottom: 150px;
 }
-#btn-read:hover, #btn-download:hover, #btn-contact-design:hover, #btn-order:hover{
-    background-color: #e8e9ea;
-}
-.btn-signup:hover{
-    background-color: #efe7db; 
-    color: black;
-}
-#btn-submit:hover{
-    background-color: #fafafa;
+#btn-read:hover, #btn-download:hover, #btn-contact-design:hover, #btn-order:hover, #btn-submit:hover, #btn-signup:hover{
+    background-color: grey;
 }
 /*--Navbar--*/
 .container {
@@ -143,21 +140,20 @@ a:hover, a:focus, a:active {
 .overlay-box{
     background-color: #efe7db;
     border-radius: 20px;
-    height: 170px;
-    opacity: 0.7;
+    height: 150px;
+    opacity: 0.8;
     position: absolute;
-    top: 70px;
-    width: 400px;
+    top: 80px;
+    width: 320px;
     z-index: 1;
 }
 #overlay-title{
     color: #ca2f2f; 
     font-family: 'Fredericka the Great', cursive; 
-    font-size: 40px; 
+    font-size: 35px; 
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center; 
-    z-index: 2; 
 }
 #overlay-subtext {
     color: #ca2f2f; 
@@ -202,7 +198,11 @@ hr {
     width: 90%;
 }
 /*--Home page Hero images--*/
+.col-lg{
+    width: 100%;
+}
 .hero-image {
+    display: inline-block;
     padding-top: 40px;
 }
 /*--About page--*/
@@ -311,13 +311,15 @@ hr {
     color: #ca2f2f;
     font-size: 25px;
     font-weight: bolder;
+    padding-bottom: 20px;
     text-align: center;
 }
 .form-container {
     background-color: #fafafa; 
     margin-bottom: 180px;
     max-width: 60%;
-    opacity: 0.7;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 .form-group, .form-control{
     color: black;
@@ -373,10 +375,6 @@ hr {
     .video{
         margin-top:50px;
     }
-    .overlay-box {
-        height: 203px;
-        width: 170px;
-    }
     #social-column{
         text-align: center; 
         -ms-flex-line-pack: center; 
@@ -400,11 +398,15 @@ hr {
 /*--Landscape phones--*/
 @media (max-width: 767.98px){
     .overlay-box {
-        height: 165px;
+        height: 50px;
         width: 170px;
     }
-    #overlay-title, #overlay-subtext {
+    #overlay-title {
         font-size: 20px;
+    }
+    #overlay-subtext{
+        display: none;
+        visibility: hidden;
     }
     .testimonials-container{
     padding-bottom: 350px;
@@ -423,7 +425,7 @@ hr {
         padding-left:0;
     }
     .button-order, .button-contact{
-        padding-bottom: 400px;
+        margin-bottom: 200px;
     }
     .form-container{
         margin-bottom: 400px;
