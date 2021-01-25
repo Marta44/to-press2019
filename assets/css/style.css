@@ -100,7 +100,7 @@ a:hover {
     margin-bottom: 150px;
 }
 #btn-read:hover, #btn-download:hover, #btn-contact-design:hover, #btn-order:hover, #btn-submit:hover, #btn-signup:hover{
-    background-color: grey;
+    background-color: #778899;
 }
 /*--Navbar--*/
 .container {
@@ -252,6 +252,10 @@ hr {
     padding-bottom: 30px;
     padding-top: 100px; 
 }
+.gallery-subheadings{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
 .gallery{
     text-align: center;
 }
@@ -337,7 +341,6 @@ hr {
 }
 /*--Credit for fixed footer at the bottom of the page: https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f --*/
 .footer{
-    flex-shrink: 0;
     font-size: 20px;
     height: 150px;
     width: 100%;
