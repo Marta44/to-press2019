@@ -299,14 +299,18 @@ hr {
     color: #ca2f2f;
 }
 /*--Contact page--*/
-/*-- Credit for full page background image: https://css-tricks.com/perfect-full-page-background-image/ --*/
+/*-- Credit for full page background image:  --*/
 .bg-img {
-    left: 0;
-    max-height: 100%;
-    min-width: 100%;
+    background-position: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: url('../images/background-contact-page-large.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
     opacity: 0.9;
-    position: fixed;
-    top: 0;
     z-index: -1;
 }
 .contact-bg-color {
@@ -328,7 +332,7 @@ hr {
     margin-bottom: 180px;
     max-width: 60%;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .form-group, .form-control{
     color: black;
