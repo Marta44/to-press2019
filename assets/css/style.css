@@ -74,12 +74,12 @@ a:hover {
     border: 1px solid #778899;
 }
 .button-order{
-    margin-bottom: 100px;
-    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
     text-align: center; 
 }
 .button-contact {
-    padding-bottom: 200px; 
+    padding-bottom: 50px; 
     padding-top: 20px;
     text-align: center; 
     -webkit-box-pack: center;
@@ -97,7 +97,7 @@ a:hover {
     text-align: center;
 }
 #btn-download { 
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 #btn-read:hover, #btn-download:hover, #btn-contact-design:hover, #btn-order:hover, #btn-submit:hover, #btn-signup:hover{
     background-color: #778899;
@@ -190,11 +190,11 @@ hr {
     padding-top: 30px;
 }
 .testimonials-container{
-    padding-bottom: 200px;
+    padding-bottom: 60px;
 }
 #testimonials-heading{
-    padding-bottom: 20px;
-    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 40px;
 }
 .quotations{
     padding-left: 20px;
@@ -203,6 +203,8 @@ hr {
 }
 /*--Home page Hero images--*/
 .hero-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 60px;
 }
@@ -342,6 +344,7 @@ hr {
 }
 /*--Credit for fixed footer at the bottom of the page: https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f --*/
 .footer{
+    flex-shrink: 0;
     font-size: 20px;
     height: 150px;
     width: 100%;
@@ -396,6 +399,10 @@ hr {
     }
     .download-brochure {
         padding-left: 60px;
+    }
+    .bg-img{
+        background: url('..images/background-contact-page-small.jpg') no-repeat;
+        background-position: center;
     }
     .form-container{
         max-width: 85%;
