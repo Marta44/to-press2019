@@ -136,6 +136,7 @@ a:hover {
     -o-object-fit: cover;
     object-fit: cover;
     padding-top: 30px;
+    overflow: hidden;
     position: relative;
     width: 100%;
     z-index: 0;
@@ -201,12 +202,9 @@ hr {
     width: 90%;
 }
 /*--Home page Hero images--*/
-.col-lg{
-    width: 100%;
-}
-.hero-image {
-    display: inline-block;
-    padding-top: 40px;
+.hero-images {
+    display: flex;
+    padding-top: 60px;
 }
 /*--About page--*/
 #about-heading {
@@ -299,9 +297,8 @@ hr {
     color: #ca2f2f;
 }
 /*--Contact page--*/
-/*-- Credit for full page background image:  --*/
+/*-- Inspiration for the style of full page background image from "Whisky drop mini project" --*/
 .bg-img {
-    background-position: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -442,6 +439,13 @@ hr {
     }
     .button-order, .button-contact{
         margin-bottom: 200px;
+    }
+    .bg-img {
+        background: url('../images/background-contact-page-medium.jpg') no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
     }
     .form-container{
         margin-bottom: 400px;
