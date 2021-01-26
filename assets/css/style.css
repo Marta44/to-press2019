@@ -429,7 +429,7 @@ hr {
         visibility: hidden;
     }
     .testimonials-container{
-    padding-bottom: 350px;
+    padding-bottom: 100px;
     }
     .footer{
         height: 320px;
@@ -439,13 +439,13 @@ hr {
         margin-left: 10px;
     }
     #btn-download{
-        margin-bottom: 300px;
+        margin-bottom: 50px;
     } 
     .container-photo{
         padding-left:0;
     }
     .button-order, .button-contact{
-        margin-bottom: 200px;
+        margin-bottom: 50px;
     }
     .bg-img {
         background: url('../images/background-contact-page-medium.jpg') no-repeat;
@@ -455,7 +455,7 @@ hr {
         width: 100%;
     }
     .form-container{
-        margin-bottom: 400px;
+        margin-bottom: 100px;
     }
 }
     /*--Tablets--*/
