@@ -206,6 +206,10 @@ hr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     padding-top: 60px;
 }
 /*--About page--*/
@@ -344,6 +348,7 @@ hr {
 }
 /*--Credit for fixed footer at the bottom of the page: https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f --*/
 .footer{
+    bottom: 0;
     flex-shrink: 0;
     font-size: 20px;
     height: 150px;
@@ -432,6 +437,8 @@ hr {
     padding-bottom: 100px;
     }
     .footer{
+        bottom: 0;
+        flex-shrink: 0;
         height: 320px;
         width: 100%;
     }
