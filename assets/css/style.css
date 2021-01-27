@@ -147,7 +147,7 @@ a:hover {
     height: 150px;
     opacity: 0.8;
     position: absolute;
-    top: 80px;
+    top: 70px;
     width: 320px;
     z-index: 1;
 }
@@ -206,11 +206,8 @@ hr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
     padding-top: 60px;
+    min-width: 100%;
 }
 /*--About page--*/
 #about-heading {
@@ -388,13 +385,12 @@ hr {
     /*--Media Queries--*/
 /*--Phones--*/
 @media (max-width: 575.98px){
-    .navbar-buttons {
-        position: absolute;
-        top: 10px;
-        right: 85px;
-    }
     .video{
-        margin-top:50px;
+        margin-top:20px;
+    }
+    #overlay-title, .overlay-box{
+        display: none;
+        visibility: hidden;
     }
     #social-column{
         text-align: center; 
@@ -422,6 +418,11 @@ hr {
     }
 /*--Landscape phones--*/
 @media (max-width: 767.98px){
+    .navbar-buttons {
+        position: absolute;
+        top: 10px;
+        right: 85px;
+    }
     .overlay-box {
         height: 50px;
         width: 170px;
