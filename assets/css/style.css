@@ -203,11 +203,7 @@ hr {
 }
 /*--Home page Hero images--*/
 .hero-images {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     padding-top: 60px;
-    min-width: 100%;
 }
 /*--About page--*/
 #about-heading {
