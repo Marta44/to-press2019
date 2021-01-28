@@ -30,78 +30,78 @@
             <button class="navbar-toggler d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        <!--Navbar links-->
-        <div class="container container-fluid mx-auto" style="width: 700px;">
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto text-uppercase">
-                <li class="nav-item">
-                    <a class="nav-link hvr-shadow" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-shadow" href="about.html">Chi Siamo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-shadow" href="gallery.html">Galleria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-shadow" href="customize.html">Personalizza</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link hvr-shadow" href="contact.html">Contattaci<span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!--CREDIT - Code solution to place buttons outside the navbar-collapse section by Igor Basuga, Tutor at Code Institute-->
-        <div class="navbar-buttons">
-            <a href="contact.html" class="btn btn-small btn-light" role="button" aria-pressed="true">EN</a>
-            <a href="ITAcontact.html" class="btn btn-small btn-dark" role="button" aria-pressed="true">ITA</a>
-        </div>
-     </nav>
+            <!--Navbar links-->
+            <div class="container container-fluid mx-auto" style="width: 700px;">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-shadow" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-shadow" href="about.html">Chi Siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-shadow" href="gallery.html">Galleria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-shadow" href="customize.html">Personalizza</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link hvr-shadow" href="contact.html">Contattaci<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--CREDIT - Code solution to place language buttons outside the navbar-collapse section by Igor Basuga, Tutor at Code Institute-->
+            <div class="navbar-buttons">
+                <a href="contact.html" class="btn btn-small btn-light" role="button" aria-pressed="true">EN</a>
+                <a href="ITAcontact.html" class="btn btn-small btn-dark" role="button" aria-pressed="true">ITA</a>
+            </div>
+        </nav>
     </header>
-    <!--Contact page-background image-->
+    <!--Contact page main content-->
     <main>
-    <section class="container-fluid bg-img">
-        <div class="row">
-            <div class="col-12">
-                <h2 id="contact-heading">Contattaci</h2>
-                <h3 id="contact-subheading">Acquista una delle nostre opere o richiedi personalizzazione</h3>
+        <!--Contact page-background image-->    
+        <section class="container-fluid bg-img">
+            <div class="row">
+                <div class="col-12">
+                    <h2 id="contact-heading">Contattaci</h2>
+                    <h3 id="contact-subheading">Acquista una delle nostre opere o richiedi personalizzazione</h3>
+                </div>
             </div>
-        </div>
-    <!--Contact form-->
-    <div class="container-fluid form-container">
-        <div class="row">
-            <div class="col">
-                <form>
-                    <div class="form-group">
-                        <label for="validationDefaultName" class="form-name">Nome e Cognome</label>
-                        <input class="form-control" type="text" id="validationDefaultName" placeholder="Full Name" required>
+            <!--Contact form-->
+            <div class="container-fluid form-container">
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <div class="form-group">
+                                <label for="validationDefaultName" class="form-name">Nome e Cognome</label>
+                                <input class="form-control" type="text" id="validationDefaultName" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="validationDefaultEmail">Indirizzo Email</label>
+                                <input class="form-control" type="email" id="validationDefaultEmail" placeholder="name@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Messaggio</label>
+                                <textarea class="form-control" id="message" rows="3" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="choosefile">Allega un file o un'immagine<i class="fas fa-paperclip"></i></label>
+                                <input class="form-control" type="file" id="choosefile" >
+                            </div>
+                            <!--Submit button-->
+                            <div class="row justify-content-center">
+                                <input type="submit" class="btn button-submit" id="btn-submit" value="Submit">
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label for="validationDefaultEmail">Indirizzo Email</label>
-                        <input class="form-control" type="email" id="validationDefaultEmail" placeholder="name@example.com" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Messaggio</label>
-                        <textarea class="form-control" id="message" rows="3" required>
-                        </textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="choosefile">Allega un file o un'immagine<i class="fas fa-paperclip"></i></label>
-                        <input class="form-control" type="file" id="choosefile" >
-                    </div>
-                    <!--Submit button-->
-                    <div class="row justify-content-center">
-                        <input type="submit" class="btn button-submit" id="btn-submit" value="Submit">
-                    </div>
-                </form>
+                </div>
             </div>
-        </div>
-        </div>
-    </section>
+        </section>
     </main>
-<!--Footer-->
-<footer class="footer container-fluid bg-color-footer">
+    <!--Footer-->
+    <footer class="footer container-fluid bg-color-footer">
         <div class="row">
             <div class="col-md-4 order-1 order-md-1 my-2" id="newsletter-column">
                 <div class="row">
@@ -111,33 +111,33 @@
                     <div class="col my-3">
                         <form class="newsletter-input">
                             <input type="email" class="form-control" placeholder="Enter email" required>
-                            <button type="submit" class="btn btn-primary" id="btn-signup">Sign Up
+                            <button type="submit" class="btn btn-primary" id="btn-signup">Iscriviti
                             </button>
                         </form>
                     </div>
                 </div>
             </div>
-        <div class="col-md-4 order-3 order-md-2 my-2" id="copyright-column">
-            <p class="copyright">Copyright © 2021 | To Press 
-                <img src="assets/images/favicon32x32.png" alt="icon To Press" width="32" height="32">
-            </p>
-        </div>
-        <div class="col-md-4 order-2 order-md-3 my-2" id="social-column">
-            <h2 class="footer-heading">Social Media</h2>
+            <div class="col-md-4 order-3 order-md-2 my-2" id="copyright-column">
+                <p class="copyright">Copyright © 2021 | To Press 
+                    <img src="assets/images/favicon32x32.png" alt="icon To Press" width="32" height="32">
+                </p>
+            </div>
+            <div class="col-md-4 order-2 order-md-3 my-2" id="social-column">
+                <h2 class="footer-heading">Social Media</h2>
                 <ul class="social-links">
                     <li class="list-inline-item mx-1">
                         <a href="https://www.facebook.com/Sabrina-Cardani-2005338136247642" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="list-inline-item mx-1">
                         <a href="https://www.instagram.com/topress19/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                            <i class="fab fa-instagram-square" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="list-inline-item mx-1">
                         <a href="https://www.pinterest.it/sabrinacardani/_saved/" target="_blank" rel="noopener noreferrer"> 
-                        <i class="fab fa-pinterest-square" aria-hidden="true"></i>
+                            <i class="fab fa-pinterest-square" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>

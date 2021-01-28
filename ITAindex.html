@@ -31,49 +31,50 @@
             <button class="navbar-toggler d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        <!--Navbar links-->
-        <div class="container container-fluid mx-auto" style="width: 700px;">
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto text-uppercase">
-                <li class="nav-item active">
-                    <a class="nav-link hvr-shadow" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-shadow" href="about.html">Chi Siamo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-shadow" href="gallery.html">Galleria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-shadow" href="customize.html">Personalizza</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hvr-shadow" href="contact.html">Contattaci</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!--CREDIT - Code solution to place buttons outside the navbar-collapse section by Igor Basuga, Tutor at Code Institute-->
-        <div class="navbar-buttons">
-            <a href="index.html" class="btn btn-small btn-light" role="button" aria-pressed="true">EN</a>
-            <a href="ITAindex.html" class="btn btn-small btn-dark" role="button" aria-pressed="true">ITA</a>
-        </div>
-     </nav>
+            <!--Navbar links-->
+            <div class="container container-fluid mx-auto" style="width: 700px;">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item active">
+                            <a class="nav-link hvr-shadow" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-shadow" href="about.html">Chi Siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-shadow" href="gallery.html">Galleria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-shadow" href="customize.html">Personalizza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-shadow" href="contact.html">Contattaci</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--CREDIT - Code solution to place language buttons outside the navbar-collapse section by Igor Basuga, Tutor at Code Institute-->
+            <div class="navbar-buttons">
+                <a href="index.html" class="btn btn-small btn-light" role="button" aria-pressed="true">EN</a>
+                <a href="ITAindex.html" class="btn btn-small btn-dark" role="button" aria-pressed="true">ITA</a>
+            </div>
+        </nav>
     </header>
     <!--Full width hero video-->
     <section class="video-container container-wrapper">
-            <video class="video full-width" muted playsinline controls="true">
-                <source src="assets/videos/Hero-video.mp4" type="video/mp4"> 
-            </video>
-                <div class="overlay-box">
-                        <div class="overlay-text">
-                            <h3 id="overlay-title">Clay Impressions</h3>
-                            <p id="overlay-subtext">Forme, memorie, attimi<br>impressi nella materia
-                            </p>
-                        </div>
-                </div>
+        <video class="video full-width" muted playsinline controls="true">
+            <source src="assets/videos/Hero-video.mp4" type="video/mp4"> 
+        </video>
+        <!--Overlay title-->
+        <div class="overlay-box">
+            <div class="overlay-text">
+                <h3 id="overlay-title">Clay Impressions</h3>
+                <p id="overlay-subtext">Forme, memorie, attimi<br>impressi nella materia
+                </p>
+            </div>
+        </div>
     </section>
-    <!--Home page content-->
+    <!--Home page main content-->
     <main>
         <div class="container-fluid content-container intro-container">
             <div class="row">
@@ -85,16 +86,17 @@
                     <p id="mission-content">
                     Amiamo interpretare attimi, pensieri, desideri, attraverso immagini e testi impressi nella ceramica. <br>
                     Usiamo tecniche tradizionali della produzione ceramica, con un approccio contemporaneo ed uno stile personale.<br>
-                    Promuoviamo la diffusione e l’uso consapevole di prodotti ceramici con una valenza artistica: <em>più argilla, meno plastica!</em>
+                    Promuoviamo la diffusione e l’uso consapevole di prodotti ceramici con una valenza artistica: 
+                    <em>più argilla, meno plastica!</em>
                     </p>
-                    <!--Read more button-->
-                    <p><a href="about.html" class="btn btn-default" id="btn-read">Leggi di più su di noi</a>
+                    <!--Read more about us button-->
+                    <p>
+                        <a href="about.html" class="btn btn-default" id="btn-read">Leggi di più su di noi</a>
                     </p>
                 </div>
             </div>
         </div>
-    </main>
-        <!--Home page-Fancybox hero images-->
+        <!--Home page hero images-Fancybox images-->
         <div class="container hero-images">
             <div class="row justify-content-center">
                 <div class="col-12 d-flex">
@@ -110,53 +112,54 @@
                             </a>
                         </figure>
                         <figure class="hero-image col-6 col-md-4 col-lg-3">
-                        <a href="assets/images/hero-image-3_2400x2400-min.png" data-fancybox="images" data-caption="Collana mare | © copyright To Press">
-                            <img src="assets/images/hero-image-3-180x180.png" class="image-thumbnail" alt="Collana mare" width="180" height="180">
-                        </a>
+                            <a href="assets/images/hero-image-3_2400x2400-min.png" data-fancybox="images" data-caption="Collana mare | © copyright To Press">
+                                <img src="assets/images/hero-image-3-180x180.png" class="image-thumbnail" alt="Collana mare" width="180" height="180">
+                            </a>
                         </figure>
                         <figure class="hero-image col-6 col-md-4 col-lg-3">
-                        <a href="assets/images/hero-image-4_2400x2400-min.png" data-fancybox="images" data-caption="Collana foglia | © copyright To Press">
-                            <img src="assets/images/hero-image-4-180x180.png" class="image-thumbnail" alt="Collana foglia" width="180" height="180">
-                        </a>
+                            <a href="assets/images/hero-image-4_2400x2400-min.png" data-fancybox="images" data-caption="Collana foglia | © copyright To Press">
+                                <img src="assets/images/hero-image-4-180x180.png" class="image-thumbnail" alt="Collana foglia" width="180" height="180">
+                            </a>
                         </figure>
                     </div>
                 </div>
             </div>
         </div>
-    <!--Home page testimonials-->
-    <div class="container-wrapper testimonials-container">
-        <div class="row">
-            <div class="col">
-            <h2 id="testimonials-heading">Dicono di noi</h2>
-        </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <blockquote class="quotations">
-                    <p>
-                    "Adoro il mio nuovo set di piatti con le iniziali mie e di mio marito. Tutti i nostri ospiti ci chiedono dove li abbiamo acquistati". <br>
-                    <cite>Marika C.</cite>
-                    </p>
-                </blockquote>
-            </div>
-                <div class="col-12 col-md-4">
-                <blockquote class="quotations">
-                    <p>
-                    "Vorrei ringraziare queste artiste fantastiche perchè hanno decorato il ritratto del mio cane Frida su un vassoio di ceramica. Lo adoro!!" <br>
-                    <cite>Erica C.</cite>
-                    </p>
-                </blockquote>
-                </div>
-                <div class="col-12 col-md-4">
-                <blockquote class="quotations">
-                    <p>
-                    "Gli orecchini con la rondine sono stati la miglior scelta per un regalo. Un successo!!" <br>
-                    <cite>Federico G.</cite>
-                    </p>
-                </blockquote>
-                </div>
+        <!--Home page testimonials-->
+        <div class="container-wrapper testimonials-container">
+            <div class="row">
+                <div class="col">
+                    <h2 id="testimonials-heading">Dicono di noi</h2>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <blockquote class="quotations">
+                        <p>
+                        "Adoro il mio nuovo set di piatti con le iniziali mie e di mio marito. Tutti i nostri ospiti ci chiedono dove li abbiamo acquistati". <br>
+                        <cite>Marika C.</cite>
+                        </p>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-md-4">
+                    <blockquote class="quotations">
+                        <p>
+                        "Vorrei ringraziare queste artiste fantastiche perchè hanno decorato il ritratto del mio cane Frida su un vassoio di ceramica. Lo adoro!!" <br>
+                        <cite>Erica C.</cite>
+                        </p>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-md-4">
+                    <blockquote class="quotations">
+                        <p>
+                        "Gli orecchini con la rondine sono stati la miglior scelta per un regalo. Un successo!!" <br>
+                        <cite>Federico G.</cite>
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </main>
     <!--Footer-->
     <footer class="footer container-fluid bg-color-footer">
         <div class="row">
@@ -168,33 +171,33 @@
                     <div class="col my-3">
                         <form class="newsletter-input">
                             <input type="email" class="form-control" placeholder="Enter email" required>
-                            <button type="submit" class="btn btn-primary" id="btn-signup">Sign Up
+                            <button type="submit" class="btn btn-primary" id="btn-signup">Iscriviti
                             </button>
                         </form>
                     </div>
                 </div>
             </div>
-        <div class="col-md-4 order-3 order-md-2 my-2" id="copyright-column">
-            <p class="copyright">Copyright © 2021 | To Press 
-                <img src="assets/images/favicon32x32.png" alt="icon To Press" width="32" height="32">
-            </p>
-        </div>
-        <div class="col-md-4 order-2 order-md-3 my-2" id="social-column">
-            <h2 class="footer-heading">Social Media</h2>
+            <div class="col-md-4 order-3 order-md-2 my-2" id="copyright-column">
+                <p class="copyright">Copyright © 2021 | To Press 
+                    <img src="assets/images/favicon32x32.png" alt="icon To Press" width="32" height="32">
+                </p>
+            </div>
+            <div class="col-md-4 order-2 order-md-3 my-2" id="social-column">
+                <h2 class="footer-heading">Social Media</h2>
                 <ul class="social-links">
                     <li class="list-inline-item mx-1">
                         <a href="https://www.facebook.com/Sabrina-Cardani-2005338136247642" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="list-inline-item mx-1">
                         <a href="https://www.instagram.com/topress19/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                            <i class="fab fa-instagram-square" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="list-inline-item mx-1">
                         <a href="https://www.pinterest.it/sabrinacardani/_saved/" target="_blank" rel="noopener noreferrer"> 
-                        <i class="fab fa-pinterest-square" aria-hidden="true"></i>
+                            <i class="fab fa-pinterest-square" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
