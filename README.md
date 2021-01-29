@@ -4,6 +4,7 @@
 
 [View the live project in GitHub Pages](https://marta44.github.io/to-press2019/)
 ![Image responsive screens](/assets/images/responsive-screenviews.png)
+
 ### Overview
 
 This is a user-centric static website for Sabrina Cardani and Elisabetta Schiavini, two ceramic artists based in Italy.
@@ -151,7 +152,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
 
-- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue as on the "Home page" the hero-images were displayed in an unique vertical column in the middle of the screen both on large or smaller windows width. Seemed that Bootstrap grid system wasn't supported by Internet Explorer. I tried to add d-flex class to the container and in this way the images were displayed on the same row but the 4 images were overlapped. At the end 
+- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue as on the "Home page" the hero-images were displayed in an unique vertical column in the middle of the screen both on large or smaller windows width. Seemed that Bootstrap grid system wasn't supported by Internet Explorer. I tried to add d-flex class to the container and in this way the 4 images are displayed on the same row but are overlapped. I couldn't solve this bug and after asking help to the tutors at Code Institute they told me is an obsolete browser so I left this issue unsolved.
 The other problem on Internet Explorer was that on "Customize page" the Bootstrap cards images were stretched in vertical and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' not only to the card (the parent element) but also to the card-image itself.
 - I've checked its responsiveness on all the emulated devices provided by Chrome Developer Tools and on my phone an iphone 7.
 
@@ -190,6 +191,7 @@ If we click on one image it opens Fancybox viewer and allows us to move back and
 ### Bugs and challenges during the project
 - I run into some issues placing the language buttons in the navigation bar. I tried to place them on the left, next to the logo, but I didn't like this solution and they were falling into the collapsible navbar. After asking an advice to the tutor at Code Institute Igor Basuga, I placed them on the right on large screens and styled them in media queries with absolute positioning. Then I decided to change the breakpoint from navbar-expand-sm to navbar-expand-md because in italian the words in the navigation menu were longer and at the breakpoint of 768px the language buttons disappeared. In this way the language buttons are always visible outside the collapsible menu and beside the burger icon. 
 - Another challenge has been to insert the newsletter in the footer. The layout wasn't responsive so I tried to insert the newsletter in the "About us" page because is one of the most visited pages but I didn't like the effect. At the end I chose a three columns layout on large screens and to order the items in vertical on phones and tablets. With @media queries I styled the footer to make it responsive.
+- Testing the pages with the Lighthouse development tool on "Contact page" the background image was slow to load and this caused a bad performance score. I changed the image format from PNG to JPG and I uploaded them in different sizes in @media queries.
 
 ---
 ## Deployment
@@ -252,5 +254,6 @@ How to run the code locally:
 ## Acknowledgements
 - I would like to say thanks to my mentor Ignatius Ukwuoma for his precious advices and continuous help during the project.
 - I would like to thank Igor Basuga, tutor at the Code Institute for his prompt support and assistance.
+- Thanks also to the Code Institute Slack Community.
 
 > **_NOTE:_** This is for educational purposes.

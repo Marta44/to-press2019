@@ -345,6 +345,7 @@ hr {
     flex-shrink: 0;
     font-size: 20px;
     height: 150px;
+    overflow: hidden;
     width: 100%;
 }
 .footer-heading {
