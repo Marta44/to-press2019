@@ -32,9 +32,9 @@ The website aims to allow customer/s to get in touch with the artists by using a
 
 ### User Stories
 - First Time Visitors goals:
-     - As a First Time Visitor of the website, I want to learn more about the artists, their mission and what they do.
-     - As a First Time Visitor, I expect to navigate the website easily and smoothly in order to find the information I need.
-     - As a First Time Visitor, I want to explore the artists' gallery of artworks and prices so I can decide if it is a company I can do business with. 
+    - As a First Time Visitor of the website, I want to learn more about the artists, their mission and what they do.
+    - As a First Time Visitor, I expect to navigate the website easily and smoothly in order to find the information I need.
+    - As a First Time Visitor, I want to explore the artists' gallery of artworks and prices so I can decide if it is a company I can do business with. 
 - Returning Visitors goals:
     - As a Returning Visitor, I want to get in contact with the artists to buy their artworks.
     - As a Returning Visitor, I want to request a personalized and unique product.
@@ -104,16 +104,19 @@ The images have been carefully selected to be eye-catching, appealing and compel
 ## Features
 ### Existing Features
 - Five different and individual pages.
+- Every page has its italian version and translation.
 - On every page is present a header logo of the business brand (top-left), if clicked brings the user back to the landing page as they expect.
 - On every page is present a header navigation bar, fixed and centered, that allows the user to navigate easily through the different sections.
 - On every page is present in the navigation bar a language switcher to select the preferred language (English or Italian).
 - On every page is present a fixed footer, which provides an email input field to sign up for the newsletter(bottom-left), the business copyright info (bottom-center) and social media pages icons (bottom-right), if clicked it brings the user to social media platforms opened on a different tab.
 - On every page is present a call to action button. Except for the downloadable brochure on the about us page the other call to action buttons lead the users across the pages till the contact us form.
-- On the "Landing page" is present a promotional video of the artists in their studio. It keeps the users engaged and invites them to look through the website's contents.
+- On the "Landing page" is present a promotional video of the artists in their studio. It has controls so users can choose to play it or not. It keeps the users engaged and invites them to look through the website's contents.
+- On the "Landing page" is present the title: "Clay impressions" and a subtitle "Shapes, memories, moments impressed in a material" overlayed on the hero-video. On tablet screen size I left only the title and on phone screen size they are not visible (display: none; visibility: hidden;). My mentor suggested me this to let the users enjoy more the view of the video.
 - On the "Landing page" there are three testimonials to show their clients satisfaction and appreciation.
 - On the "About Us" section is provided a downloadable PDF version of the artists' brochure that gets opened in another tab.
 - On the "Gallery page" is present a small preview of the artworks, if clicked opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images. I have used Fancybox preview so some of the images are hidden. If we click on one of the displayed images we have access to the whole collection. 
-- On the "Customize page" is shown the personalization process through icons to simplify the explanation and I used Bootstrap cards to display three demonstrative images, one for every typology. 
+- On the "Customize page" is shown the personalization process through icons to simplify the explanation and I used Bootstrap cards to display three demonstrative images, one for every typology of personalization. 
+- On the "Customize" page the different height of the cards is made intentionally and on purpose to fit the text and give a dynamic effect to the page.
 - On the "Contact page" is present a form which allows users to get in touch with the artists uploading images or files together with their request message.
 
 ### Features to add in future
@@ -121,7 +124,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - Add CAPTCHA, a challenge-response authentication, to the contact form to block spammers and bots (Javascript needed).
 - Add General Data Protection Regulation (GDPR), which protects the Privacy Policy of European Union residents (Javascript needed).
 - Add "Ceramic lessons" page. This is a further opportunity for the artists but they need time to organize this activity and to feature its programme.
-- Add "Collaborations and projects" page. Once they build up their network and start to collaborate with more artists is important to dedicate to it a specific section. At the moment they collaborate only with a shop called "Madama Vintage" in Gallarate (VA), Italy.
+- Add "Collaborations and projects" page. Once they build up their network and start to collaborate with more artists is important to dedicate to it a specific section. At the moment they collaborate only with an independent shop called "Madama Vintage" in Gallarate (VA), Italy.
 - Add a further and deeper description in the "About us" page about their education and artistic path.
 ---
 ## Technologies Used
@@ -149,7 +152,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - [W3C Markup Validation Service](https://validator.w3.org/)
 
 - This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue as on the "Home page" the hero-images were displayed in an unique vertical column in the middle of the screen both on large or smaller windows width. Seemed that Bootstrap grid system wasn't supported by Internet Explorer. I tried to add d-flex class to the container and in this way the images were displayed on the same row but the 4 images were overlapped. At the end 
-The other problem was that on "Customize page" the Bootstrap cards images were stretched in vertical and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' not only to the card(the parent element) but also to the card-image itself.
+The other problem on Internet Explorer was that on "Customize page" the Bootstrap cards images were stretched in vertical and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' not only to the card (the parent element) but also to the card-image itself.
 - I've checked its responsiveness on all the emulated devices provided by Chrome Developer Tools and on my phone an iphone 7.
 
 ### Testing users stories 
@@ -162,7 +165,7 @@ From every page pressing on the logo in the navigation bar the user can go back 
 ### Manual functional testing
 #### Home page
 - **Navigation Bar**: hovering over the logo appears the title attribute (to-press logo). Only with alt attribute the text didn't appear so I had to add the title attribute. If we click on the logo a link bring us back to the "Home page". Hovering over the pages' label appears the hover shadow transition and the pages' names turn into red. The navbar language buttons (EN-ITA) are on every page and they link to the respective italian html page. Hovering over them they turn into red and clicking on EN becomes light-grey (btn-light) and on ITA becomes dark-grey (btn-dark) as I used Bootstrap button styles. At the breakpoint of (max-width: 575.98px) the navbar transforms into a toggle menu and clicking the burger icon it opens a collapsible centered menu. The language buttons are on the left side of the collapsible menu but if the toggle menu is closed they are visible under the logo.
-- **Hero-video**: is looped, muted and it auto plays. It is 100% width. The overlay box with the title is responsive changing the screen sizes as I styled it with media queries.
+- **Hero-video**: is muted and it has controls. The user can choose to play it or not. It is 100% width. The overlay box with the title is responsive changing the screen sizes as I styled it with media queries. On tablet screen I left only the title: "Clay Impressions". On phone screen size title and subtitle are not displayed to allow the users to have a better view of the video on small screens.
 - **Call to action button** "Read more about us": hovering over it turns into Light Slate Gray color, the same color of the navbar and the footer. If pressed it links and brings to the "About us" page.
 - **Hero-images**: are four of the artists most recent creations. I used Fancybox to display these images individually. If we click on one image it opens Fancybox viewer and allows us to move back and forward with the arrows, to zoom an image, to start a slideshow or to open the thumbnails gallery. Every image has a name and the copyright thanks to the data-caption attribute. On phone screens I used col-6 Bootstrap grid system to place two images side by side.
 - **Testimonials**: are three customers reviews. On medium and large screen they display in three columns but on smaller screens instead to use d-none d-sm-block and hide one of them I choose to display them all (col-12) and stack one on top of each other. 
@@ -187,7 +190,6 @@ If we click on one image it opens Fancybox viewer and allows us to move back and
 ### Bugs and challenges during the project
 - I run into some issues placing the language buttons in the navigation bar. I tried to place them on the left, next to the logo, but I didn't like this solution and they were falling into the collapsible navbar. After asking an advice to the tutor at Code Institute Igor Basuga, I placed them on the right on large screens and styled them in media queries with absolute positioning. Then I decided to change the breakpoint from navbar-expand-sm to navbar-expand-md because in italian the words in the navigation menu were longer and at the breakpoint of 768px the language buttons disappeared. In this way the language buttons are always visible outside the collapsible menu and beside the burger icon. 
 - Another challenge has been to insert the newsletter in the footer. The layout wasn't responsive so I tried to insert the newsletter in the "About us" page because is one of the most visited pages but I didn't like the effect. At the end I chose a three columns layout on large screens and to order the items in vertical on phones and tablets. With @media queries I styled the footer to make it responsive.
-- On "Customize" page I have used Bootstrap cards to present three different typologies of personalization and the different height of the cards is made intentionally and on purpose to fit the text and give a dynamic effect to the page. 
 
 ---
 ## Deployment
