@@ -8,30 +8,29 @@
 ## Table of contents
 - [Project overview](#overview)
 - [User Experience UX](#user-experience-ux)
-+ [User goals](#user-goals)
-+ [Target audience of this project](#target-audience)
-+ [User stories](#user-stories)
-- [Strategy](#strategy)
-- [Scope](#scope)
-- [Structure](#structure)
-- [Skeleton-Wireframes](#skeleton)
-- [Surface](#surface)
+- [User stories](#user-stories)
+- [Five planes of UX](#five-planes)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton-Wireframes](#skeleton)
+    - [Surface](#surface)
 - [Features](#features)
-+ [Existing features](#existing-features)
-+ [Future features](#features-to-add-in-future)
+    - [Existing features](#existing-features)
+    - [Future features](#features-to-add-in-future)
 - [Technologies used](#technologies-used)
-+ [Languages used](#languages-used)
-+ [Frameworks Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+    - [Languages used](#languages-used)
+    - [Frameworks Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 - [Testing](#testing)
-+ [Testing user stories](#testing-user-stories)
-+ [Manual functional testing](#manual-functional-testing)
+    - [Testing user stories](#testing-user-stories)
+    - [Manual functional testing](#manual-functional-testing)
 - [Bugs and challenges during the project](#bugs-and-challenges-during-the-project)
 - [Deployment](#deployment)
 - [Credits](#credits)
-+ [Resources used](#resources-used)
-+ [Code credit](#code)
-+ [Contents](#content)
-+ [Media](#media)
+    - [Resources used](#resources-used)
+    - [Code credit](#code)
+    - [Contents](#content)
+    - [Media](#media)
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
@@ -77,6 +76,7 @@ The website aims to allow customer/s to get in touch with the artists by using a
     - As a Local Ceramic Artist, I want to get in touch with the artists and be able to use their laboratory/studio to craft my ceramics.
     - As a Designer, I want to commit to the artists the production of ceramic series (usually little art pieces). 
 ---
+## Five planes of UX
 ## Strategy
 The aim of this project is to spread awareness of the two ceramists leading the users to contact them via a contact form or through their social media pages.
 
@@ -117,14 +117,14 @@ The structure is simple and follows a linear narrative. This allows the users to
 
 It plays with neutral light colours which invoke earth-tones and clay's hues:
 
-* I've chosen a light beige color (#efe7db) for backgrounds because I picked it from this picture of their ceramics ![Ceramic leaves](/assets/images/ToPress-leaves.png "Ceramic leaves") using the Website [Ginifab](https://www.ginifab.com/feeds/pms/pms_color_in_image.php).
-* I've used Light Slate Gray (#778899) for body-text to make it outstanding and because evokes clay's color.
-* I've chosen Porcelain color (#e8e9ea) for the navigation bar background and the footer.
-* I've chosen Benjamin Moore Red color (#ca2f2f) for the links in the navbar and for the main headings because reminds the color of their logo.
+- I've chosen a light beige color (#efe7db) for backgrounds because I picked it from this picture of their ceramics ![Ceramic leaves](/assets/images/ToPress-leaves.png "Ceramic leaves") using the Website [Ginifab](https://www.ginifab.com/feeds/pms/pms_color_in_image.php).
+- I've used Light Slate Gray (#778899) for body-text to make it outstanding and because evokes clay's color.
+- I've chosen Porcelain color (#e8e9ea) for the navigation bar background and the footer.
+- I've chosen Benjamin Moore Red color (#ca2f2f) for the links in the navbar and for the main headings because reminds the color of their logo.
 
 **Typography**
-* "Fredericka the Great" font ("Exo" as fallback font) for headings. I've chosen this font for its artistic and clear aspect.
-* "Josefin Slab" font ("Cormorant" as fallback font) for body content. I've chosen this font for its elegant design.
+- "Fredericka the Great" font ("Exo" as fallback font) for headings. I've chosen this font for its artistic and clear aspect.
+- "Josefin Slab" font ("Cormorant" as fallback font) for body content. I've chosen this font for its elegant design.
 
 **Imagery**
 
@@ -177,7 +177,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 12. [GitHub](https://github.com/) : is a hosting platform used to deploy and store the project code after being pushed from Git.
 ---
 ## Testing
-- I have checked the validity of the code with: 
+I have checked the validity of the code with: 
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -190,8 +190,8 @@ The other problem on Internet Explorer was that on "Customize page" the Bootstra
 From every page pressing on the logo in the navigation bar the user can go back to the home page. The first time visitor can choose the preferred language by clicking the buttons EN-ITA in the navbar. 
 ![Navigation bar](/assets/images/Screenshot-navbar-min.png "Clear labelled navigation bar")
 2. As a **Returning Visitor** I am interested to buy an artwork that I have previously viewed on the "Gallery page" so clicking on "Contact us" I can fill the contact form. Another way to contact the artists is through the social media icons links in the footer. The third way is to download their brochure and here there are their contact information: phone number and email address. 
-![Download brochure on about us page](/assets/images/Screenshot-download-brochure-min.png "Download brochure")
 A Returning Visitor could be interested about the personalization option so after visiting the page "Personalize your product" can press the call to action button "Contact us and Design with us" and contact the artists with the same procedure.
+![Download brochure on about us page](/assets/images/Screenshot-download-brochure-min.png "Download brochure")
 3. As a **Frequent Visitor** I want to stay updated on the artists new creations so after visiting the "Gallery" page to see if there are new artworks, I sign up for the newsletter placed in the footer.
 ![Newsletter in the footer](/assets/images/Screenshot-newsletter-footer-min.png "Newsletter")
 4. As a **Local Artist** I look for collaboration projects or commit to the artists the production of ceramic series. I go straight to the "Contact us" page because I probably already know personally the artists otherwise after visiting the "About us" page I proceed to contact them. 
