@@ -5,7 +5,36 @@
 [View the live project in GitHub Pages](https://marta44.github.io/to-press2019/)
 ![Image responsive screens](/assets/images/responsive-screenviews.png)
 
-### Overview
+## Table of contents
+- [Project overview](#overview)
+- [User Experience UX](#user-experience-ux)
++ [User goals](#user-goals)
++ [Target audience of this project](#target-audience)
++ [User stories](#user-stories)
+- [Strategy](#strategy)
+- [Scope](#scope)
+- [Structure](#structure)
+- [Skeleton-Wireframes](#skeleton)
+- [Surface](#surface)
+- [Features](#features)
++ [Existing features](#existing-features)
++ [Future features](#features-to-add-in-future)
+- [Technologies used](#technologies-used)
++ [Languages used](#languages-used)
++ [Frameworks Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+- [Testing](#testing)
++ [Testing user stories](#testing-user-stories)
++ [Manual functional testing](#manual-functional-testing)
+- [Bugs and challenges during the project](#bugs-and-challenges-during-the-project)
+- [Deployment](#deployment)
+- [Credits](#credits)
++ [Resources used](#resources-used)
++ [Code credit](#code)
++ [Contents](#content)
++ [Media](#media)
+- [Acknowledgements](#acknowledgements)
+
+## Overview
 
 This is a user-centric static website for Sabrina Cardani and Elisabetta Schiavini, two ceramic artists based in Italy.
 As the artists are Italian, the website has both an English and Italian version.
@@ -156,7 +185,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 The other problem on Internet Explorer was that on "Customize page" the Bootstrap cards images were stretched in vertical and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' not only to the card (the parent element) but also to the card-image itself.
 - I've checked its responsiveness on all the emulated devices provided by Chrome Developer Tools and on my phone an iphone 7.
 
-### Testing users stories 
+### Testing user stories 
 1. As a **First Time Visitor** of the website I want to learn more about the artists, their mission and what they do. The common path is: starting from the "Home page", read the mission and press the call to action button "read more about us" to dive into the information of the artists in the "About us page" and see their activities and facilities. Usually a first time visitor wants to explore the gallery of artworks to evaluate the quality and is here that he/she decides if is interested or not in purchasing. The user can view and find easily all the pages thanks to a clear, linear and labelled navigation bar. I set an active class to every navigation item. Clicking on the navigation label the user can understand better which page it is because the label changes color into black.  
 From every page pressing on the logo in the navigation bar the user can go back to the home page. The first time visitor can choose the preferred language by clicking the buttons EN-ITA in the navbar. 
 ![Navigation bar](/assets/images/Screenshot-navbar-min.png "Clear labelled navigation bar")
@@ -247,8 +276,7 @@ How to run the code locally:
 ### Code
 - [Css style for hero-video](https://css-tricks.com/full-page-background-video-styles/)
 - [Css style for background-image on Contact page](https://css-tricks.com/perfect-full-page-background-image/)
-- [Css style for fixed footer at the bottom of the page](https://stackoverflow.com/questions/18915550/fix-footer-to-bottom-of-page)
-  https://gist.github.com/raihan004/42b2c14936eba79ee68b
+- [Css style to keep the footer at the bottom of the page](https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f)
 
 ### Content
 - The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi. The italian version has been written by the artists Elisabetta Schiavini and Sabrina Cardani, proofread and adapted by Marta Marassi.
