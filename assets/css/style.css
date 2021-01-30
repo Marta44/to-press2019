@@ -57,17 +57,17 @@ a:hover {
 }
 /*--Buttons--*/
 .navbar-buttons .btn{
+    background-color: #fafafa;
+    border: 1px solid #778899;
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
     color: #333;
     display: -webkit-box;
     display: -ms-flexbox;
     display: inline-block;
-    padding: 5px;
     font-size: 10px;
     font-weight: 700;
-    border: 1px solid #778899;
-    background-color: #fafafa;
-    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    padding: 5px;
 }
 .btn:hover, .btn:focus {
     background-color: #ca2f2f;
@@ -90,8 +90,8 @@ a:hover {
     margin-top: 20px;
 }
 #btn-read, #btn-order, #btn-contact-design, #btn-submit, #btn-download, #btn-signup{
-    border: 1px solid gray; 
     background-color: #ca2f2f; 
+    border: 1px solid gray; 
     color: #fafafa;
     font-weight: 600;
     text-align: center;
@@ -104,13 +104,13 @@ a:hover {
 }
 /*--Navbar--*/
 .container {
-    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    position: relative;
     text-align: center;
 }
 .nav-link {
@@ -118,10 +118,10 @@ a:hover {
     font-weight: bold;
 }
 .navbar-brand .navbar {
-    width: 80px; 
     height: 30px; 
-    margin-top: 5px; 
     margin-bottom: 20px;
+    margin-top: 5px; 
+    width: 80px; 
 }
 .bg-color-navbar {
     background-color: #e8e9ea;
@@ -135,8 +135,8 @@ a:hover {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    padding-top: 30px;
     overflow: hidden;
+    padding-top: 30px;
     position: relative;
     width: 100%;
     z-index: 0;
@@ -219,11 +219,11 @@ hr {
     width: 70%;
 }
 .container-photo{
+    -ms-flex-line-pack: center;
+    align-content: center;
     -webkit-box-align: center; 
     -ms-flex-align: center; 
     align-items: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
     padding-bottom: 40px; 
     padding-left: 200px; 
     }
@@ -276,10 +276,10 @@ hr {
     color: #ca2f2f;
 }
 .card{
+    background-color: #e8e9ea; 
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #e8e9ea; 
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -299,14 +299,14 @@ hr {
 /*-- Inspiration for the style of full page background image from "Whisky drop mini project" --*/
 .bg-img {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     background: url('../images/background-contact-page-large.jpg') no-repeat;
     background-size: cover;
-    overflow: hidden;
     height: 100%;
-    width: 100%;
     opacity: 0.9;
+    overflow: hidden;
+    width: 100%;
     z-index: -1;
 }
 .contact-bg-color {
@@ -327,8 +327,8 @@ hr {
     background-color: #fafafa; 
     margin-bottom: 180px;
     max-width: 60%;
-    padding-top: 40px;
     padding-bottom: 40px;
+    padding-top: 40px;
 }
 .form-group, .form-control{
     color: black;
@@ -349,25 +349,25 @@ hr {
     width: 100%;
 }
 .footer-heading {
-    text-align: center;
     font-family: 'Josefin Slab', serif;
     font-size: 25px;
     padding-top: 15px; 
+    text-align: center;
     text-transform: none;
 }    
 #copyright-column{
-    -ms-flex-line-pack: end;
     align-content: flex-end;
+    -ms-flex-line-pack: end;
     display: inline-block;
     font-size: 18px;
-    text-align: end;
     padding: 30px 100px;
+    text-align: end;
 }
 #social-column {
     display: inline-block;
     font-size: 18px; 
-    text-align: center;
     padding-left: 120px;
+    text-align: center;
 }
 .social-links{
     display: inline;
@@ -390,9 +390,9 @@ hr {
         visibility: hidden;
     }
     #social-column{
+        align-content: center; 
         text-align: center; 
         -ms-flex-line-pack: center; 
-        align-content: center; 
         width: 90%;
     }
     .download-brochure {
@@ -417,8 +417,8 @@ hr {
 @media (max-width: 767.98px){
     .navbar-buttons {
         position: absolute;
-        top: 10px;
         right: 85px;
+        top: 10px;
     }
     .overlay-box {
         height: 50px;
@@ -455,8 +455,8 @@ hr {
     .bg-img {
         background: url('../images/background-contact-page-medium.jpg') no-repeat;
         background-size: cover;
-        overflow: hidden;
         height: 100%;
+        overflow: hidden;
         width: 100%;
     }
     .form-container{

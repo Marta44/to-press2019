@@ -117,7 +117,8 @@ The structure is simple and follows a linear narrative. This allows the users to
 
 It plays with neutral light colours which invoke earth-tones and clay's hues:
 
-- I've chosen a light beige color (#efe7db) for backgrounds because I picked it from this picture of their ceramics ![Ceramic leaves](/assets/images/ToPress-leaves.png "Ceramic leaves") using the Website [Ginifab](https://www.ginifab.com/feeds/pms/pms_color_in_image.php).
+- I've chosen a light beige color (#efe7db) for backgrounds because I picked it from this picture of their ceramics using the Website [Ginifab](https://www.ginifab.com/feeds/pms/pms_color_in_image.php). 
+![Ceramic leaves](/assets/images/ToPress-leaves.png "Ceramic leaves")
 - I've used Light Slate Gray (#778899) for body-text to make it outstanding and because evokes clay's color.
 - I've chosen Porcelain color (#e8e9ea) for the navigation bar background and the footer.
 - I've chosen Benjamin Moore Red color (#ca2f2f) for the links in the navbar and for the main headings because reminds the color of their logo.
