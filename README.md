@@ -268,7 +268,7 @@ How to run the code locally:
 - [Javascript position](https://flaviocopes.com/javascript-async-defer/) - to learn how load Javascript efficiently in my html file.
 - [Stack Overflow](https://stackoverflow.com/) - General resource.
 - [CSS-Tricks](https://css-tricks.com/) - General resource.
-- [W3 Schools](https://www.w3schools.com/) - General resource.
+- [W3Schools](https://www.w3schools.com/) - General resource.
 - [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - to learn the Bootstrap grid system.
 - [Colors](https://encycolorpedia.com)- to find the right matching color palette for my website.
 - [Resize images](https://photoshop.adobe.com/) and [Compress images](https://compresspng.com/)

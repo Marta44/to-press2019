@@ -418,7 +418,7 @@ hr {
         -ms-flex-line-pack: center; 
         width: 90%;
     }
-    }
+}
 /*--Landscape phones--*/
 @media (max-width: 767.98px){
     .navbar-buttons {
@@ -468,7 +468,7 @@ hr {
     #newsletter-column{
         margin-left: 10px;
     }
-    }
+}
     /*--Tablets--*/
     @media (max-width: 991.98px) {
     .about-text{
@@ -481,4 +481,4 @@ hr {
     #social-column{
         padding-left: 40px;
     }
-    }
+}
