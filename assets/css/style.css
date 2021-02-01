@@ -89,11 +89,6 @@ a:hover {
 .button-submit{
     margin-top: 20px;
 }
-.download-brochure {
-    padding-bottom: 50px; 
-    padding-left: 20px;
-    text-align: center;
-}
 #btn-read, #btn-order, #btn-contact-design, #btn-submit, #btn-download, #btn-signup{
     background-color: #ca2f2f; 
     border: 1px solid gray; 
@@ -240,6 +235,9 @@ hr {
 #about-activities{
     padding-bottom: 20px; 
     padding-left: 20px;
+    text-align: center; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
 }
 .activities-list{
     font-size: 20px; 
@@ -248,6 +246,11 @@ hr {
     text-align: center; 
     -webkit-box-pack: center; 
     -ms-flex-pack: center; 
+}
+.download-brochure {
+    padding-bottom: 50px; 
+    padding-left: 20px;
+    text-align: center;
 }
 /*--Gallery page--*/
 #gallery-heading {
@@ -348,7 +351,8 @@ hr {
 /*--Credit to keep the footer at the bottom of the page: https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f --*/
 .footer{
     bottom: 0;
-    flex-shrink: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
     font-size: 20px;
     height: 150px;
     overflow: hidden;
@@ -395,9 +399,6 @@ hr {
     #overlay-title, .overlay-box{
         display: none;
         visibility: hidden;
-    }
-    .download-brochure {
-        padding-left: 60px;
     }
     #contact-heading{
         padding-top: 100px;
