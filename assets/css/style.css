@@ -291,11 +291,12 @@ hr {
     margin-bottom:40px;
 }
 .card-img-top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    overflow: hidden;
-    width: 100%;
 }
 .card-title{
     color: #ca2f2f;
