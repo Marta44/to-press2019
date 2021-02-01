@@ -184,7 +184,7 @@ I have checked the validity of the code with:
 - [W3C Markup Validation Service](https://validator.w3.org/)
 
 - This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue as on the "Home page" the hero-images were displayed in an unique vertical column in the middle of the screen both on large or smaller windows width. Seemed that Bootstrap grid system wasn't supported by Internet Explorer. I tried to add d-flex class to the container and in this way the 4 images are displayed on the same row but are overlapped. I couldn't solve this bug and after asking help to the tutors at Code Institute they told me is an obsolete browser so I left this issue unsolved.
-The other problem on Internet Explorer was that on "Customize page" the Bootstrap cards images were stretched in vertical and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' not only to the card (the parent element) but also to the card-image itself.
+The other problem on Internet Explorer was that on "Customize page" the Bootstrap cards images were stretched in vertical and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' to the card's image. I also added img-fluid class to the card's images.
 - I've checked its responsiveness on all the emulated devices provided by Chrome Developer Tools and on my phone an iphone 7.
 
 ### Testing user stories 

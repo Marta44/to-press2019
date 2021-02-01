@@ -285,18 +285,12 @@ hr {
 }
 .card{
     background-color: #e8e9ea; 
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     margin-bottom:40px;
 }
 .card-img-top{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
