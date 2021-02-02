@@ -50,7 +50,7 @@ The website aims to allow customer/s to get in touch with the artists by using a
 #### Visitors of this website are looking for:
 - A bespoke, original and unique gift.
 - An artistic collaboration.
-- A personalized object and product.
+- A personalized art piece and product.
 
 #### The *Target Audience* of the business is:
 - An English or Italian speaker.
@@ -139,11 +139,11 @@ The images have been carefully selected to be eye-catching, appealing and compel
 - On every page is present a header logo of the business brand (top-left), if clicked brings the user back to the landing page as they expect.
 - On every page is present a header navigation bar, fixed and centered, that allows the user to navigate easily through the different sections.
 - On every page is present in the navigation bar a language switcher to select the preferred language (English or Italian).
-- On every page is present a constant footer, which provides an email input field to sign up for the newsletter(bottom-left), the business copyright info (bottom-center) and social media pages icons (bottom-right), if clicked it brings the user to social media platforms opened on a different tab.
-- On every page is present a call to action button. Except for the downloadable brochure on the about us page the other call to action buttons lead the users across the pages till the contact us form.
+- On every page is present a constant footer, which provides an email input field to sign up for the newsletter(bottom-left), the business copyright info (bottom-center) and social media pages icons (bottom-right), if clicked it brings the user to social media platforms (Facebook, Instagram and Pinterest) opened on a different tab.
+- On every page is present a call to action button. Except for the downloadable brochure on the "About us page" the other call to action buttons lead the users across the pages till the contact form.
 - On the "Landing page" is present a promotional video of the artists in their studio. It has controls so users can choose to play it or not. It keeps the users engaged and invites them to look through the website's contents.
 - On the "Landing page" is present the title: "Clay impressions" and a subtitle "Shapes, memories, moments impressed in a material" overlayed on the hero-video. On tablet screen size I left only the title and on phone screen size they are not visible (display: none; visibility: hidden;). My mentor suggested me this modification to let the users enjoy more the view of the video.
-- On the "Landing page" are shown four images (hero-images) of their most recent creations. If we click on an image it opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images. Placing some images in the home page encourage the users to have a look also into the galley page.
+- On the "Landing page" are shown four images (hero-images) of their most recent creations. If we click on an image it opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images. Placing some images in the Home page encourage the users to have a look also into the "Gallery page".
 - On the "Landing page" there are three testimonials to show their clients satisfaction and appreciation.
 - On the "About Us" section is provided a downloadable PDF version of the artists' brochure that gets opened in another tab.
 - On the "Gallery page" are displayed the artworks divided into categories, if clicked opens a Fancybox viewer which can enlarge and zoom the image and allows to move back and forward through the images. Every image has its description, price and copyright.
@@ -167,7 +167,7 @@ The images have been carefully selected to be eye-catching, appealing and compel
 ### Frameworks, Libraries and Programs Used
 1. [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) : was used to provide responsiveness on all device sizes and add some stylistic components.
 2. [Hover.css](https://ianlunn.github.io/Hover/) : a third part library used to add the transition effect to social media links in the footer and to the navbar text. 
-3. [FontAwesome](https://fontawesome.com/) : was used to add icons for social media links and for the customization process explanation.
+3. [FontAwesome](https://fontawesome.com/) : was used to add icons for social media links, for the customization process explanation and for the little icons inside the buttons.
 4. [Google Fonts](https://fonts.google.com/) : was used to import typography fonts.
 5. [Balsamiq](https://balsamiq.com/) : was used to create wireframes during the design of the layout.
 6. [jQuery](https://jquery.com/) : was used to make the navbar responsive.
@@ -183,12 +183,12 @@ I have checked the validity of the code with:
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
 
-- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue as on the "Home page" the hero-images were displayed in an unique vertical column in the middle of the screen both on large or smaller windows width. Seemed that Bootstrap grid system wasn't supported by Internet Explorer. I tried to add d-flex class to the container and in this way the 4 images are displayed on the same row but are overlapped. I couldn't solve this bug and after asking help to the tutors at Code Institute they told me it is an obsolete browser so I left this issue unsolved.
-The other problem on Internet Explorer was that on "Customize page" the Bootstrap cards images were stretched in vertical and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' to the card's image. I also added img-fluid class to the card's images. Also on Safari I have found out that the personalization images were stretching in vertical so I uploaded the images in a smaller format and set the max:height at 100%.
+- This website has been tested across the main browsers (Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Mozilla FireFox). On Internet Explorer I have identified an issue on the "Home page". The hero-images were displayed in an unique vertical column in the middle of the screen both on large or smaller windows width. It seemed that Bootstrap grid system wasn't supported by Internet Explorer. I tried to add d-flex class to the container and in this way the 4 images are displayed on the same row but are now overlapped. I was unable to solve this bug independently, I asked to a tutor at Code Institute for support, they informed me that Internet Explorer is now an obsolete browser therefore the decision was made to leave this issue unsolved.
+The other problem on Internet Explorer was that on "Customize page" the Bootstrap cards images were stretched in vertical and the call to action button was overlapping the cards' content. I fixed this problem adding in the style the height property 'fit-content' to the card- image-top. I also added img-fluid class to the card's images. Also on Safari I have found out that the personalization images were stretching in vertical so I uploaded the images in a smaller format keeping their aspect ratio and setting the max:height at 100%. I have tested again on my iphone7 and the images are now displayed correctly.
 - I've checked its responsiveness on all the emulated devices provided by Chrome Developer Tools and on my phone an iphone 7.
 
 ### Testing user stories 
-1. As a **First Time Visitor** of the website I want to learn more about the artists, their mission and what they do. The common path is: starting from the "Home page", read the mission and press the call to action button "read more about us" to dive into the information of the artists in the "About us page" and see their activities and facilities. Usually a first time visitor wants to explore the gallery of artworks to evaluate the quality and is here that he/she decides if is interested or not in purchasing. The user can view and find easily all the pages thanks to a clear, linear and labelled navigation bar. I set an active class to every navigation item. Clicking on the navigation label the user can understand better which page it is because the label changes color into black. Moreover the shadow hover transition in the navigation bar helps the users to understand on which label they are hovering the mouse.  
+1. As a **First Time Visitor** of the website I want to learn more about the artists, their mission and what they do. The common path is: starting from the "Home page", read the mission and press the call to action button "read more about us" to dive into the information of the artists in the "About us page" and see their activities and facilities. Usually a first time visitor wants to explore the gallery of artworks to evaluate the quality and is here that he/she decides if is interested or not in purchasing. The user can view and find easily all the pages thanks to a clear, linear and labelled navigation bar. I set an active class to every navigation item. Clicking on the navigation label the user can understand better which page it is because the label is bold and changes color into black. Moreover the shadow hover transition in the navigation bar helps the users to understand on which label they are hovering the mouse.  
 From every page pressing on the logo in the navigation bar the user can go back to the home page. The first time visitor can choose the preferred language by clicking the buttons EN-ITA in the navbar. 
 ![Navigation bar](/assets/images/Screenshot-navbar-min.png "Clear labelled navigation bar")
 2. As a **Returning Visitor** I am interested to buy an artwork that I have previously viewed on the "Gallery page" so clicking on "Contact us" I can fill the contact form. Another way to contact the artists is through the social media icons links in the footer. The third way is to download their brochure and here there are their contact information: phone number and email address. 
@@ -196,12 +196,12 @@ A Returning Visitor could be interested about the personalization option so afte
 ![Download brochure on about us page](/assets/images/Screenshot-download-brochure-min.png "Download brochure")
 3. As a **Frequent Visitor** I want to stay updated on the artists new creations so after visiting the "Gallery" page to see if there are new artworks, I sign up for the newsletter placed in the footer.
 ![Newsletter in the footer](/assets/images/Screenshot-newsletter-footer-min.png "Newsletter")
-4. As a **Local Artist** I look for collaboration projects or commit to the artists the production of ceramic series. I go straight to the "Contact us" page because I probably already know personally the artists otherwise after visiting the "About us" page I proceed to contact them. 
+4. As a **Local Artist** I look for collaboration projects or commit to the artists the production of ceramic series. I go straight to the "Contact us" page because I probably already know personally the artists otherwise, after visiting the "About us" page, I proceed to contact them. 
 ![Contact form](/assets/images/Screenshot-userstories-contact-min.png "Contact page")
 
 ### Manual functional testing
 #### Home page
-- **Navigation Bar**: hovering over the logo appears the title attribute (to-press logo). Only with alt attribute the text didn't appear so I had to add the title attribute. If we click on the logo a link bring us back to the "Home page". Hovering over the pages' label appears the hover shadow transition and the pages' names turn into red. The navbar language buttons (EN-ITA) are on every page and they link to the respective italian html page. Hovering over them they turn into red and clicking on EN becomes light-grey (btn-light) and on ITA becomes dark-grey (btn-dark) as I used Bootstrap button styles. At the breakpoint of (max-width: 767.98px) the navbar transforms into a toggle menu and clicking the burger icon it opens a collapsible centered menu. The language buttons are on the left side of the toggle menu.
+- **Navigation Bar**: hovering over the logo appears the title attribute (to-press logo). Only with alt attribute the text didn't appear so I had to add the title attribute. If we click on the logo a link bring us back to the "Home page". Hovering over the pages' label appears the hover shadow transition and the pages' names turn into red. The navbar language buttons (EN-ITA) are on every page and they link to the respective italian html page. Hovering over them they turn into red and clicking on EN becomes light-grey (btn-light) and on ITA becomes dark-grey (btn-dark) as I used Bootstrap button styles. At the breakpoint of (max-width: 767.98px) the navbar transforms into a toggle menu and clicking the burger icon it opens a collapsible centered menu. The language buttons are placed on the left side of the toggle menu.
 - **Hero-video**: is muted and it has controls. The user can choose to play it or not. It is 100% width. The overlay box with the title is responsive changing the screen sizes as I styled it with media queries. On tablet screen I left only the title: "Clay Impressions". On phone screen size title and subtitle are not displayed to allow the users to have a better view of the video on small screens.
 - **Call to action button** "Read more about us": hovering over it turns into Light Slate Gray color. If pressed it links and brings to the "About us" page.
 - **Hero-images**: are four of the artists most recent creations. I used Fancybox to display these images individually. If we click on one image it opens Fancybox viewer and allows us to move back and forward with the arrows, to zoom an image, to start a slideshow or to open the thumbnails gallery. Every image has a name and the copyright thanks to the data-caption attribute. On phone screens I used col-6 Bootstrap grid system to place two images side by side.
@@ -211,10 +211,10 @@ Hovering the "Sign up" button it turns Light Slate Gray color.
 The social media links get open in a new tab using target="_blank" and hovering over their icons they turn into red and transform their sizes slightly bigger. The footer is responsive and at the breakpoint of (max-width: 767.98px) the three columns are ordered vertically inverting the order of social media links and of the copyright. In this way the copyright appears at the bottom of the page.  
 #### About us page
 - **Artists images**: hovering over the images of the two artists it shows the title attribute "Sabrina photo" and "Elisabetta photo". With the alt attribute alone the text didn't appear.
-- **Call to action button** "Download our brochure": hovering over it turns into Light Slate Gray color and if is clicked it downloads the pdf file in English or in Italian if you are on "Chi Siamo" page. The files end in the user download default folder and to achieve this I used the download attribute.
+- **Call to action button** "Download our brochure": hovering over it turns into Light Slate Gray color and if is clicked it downloads the pdf file in English or in Italian if we are on "Chi Siamo" page. The files end in the user download default folder and to achieve this I used the download attribute.
 #### Gallery page
-- **Gallery Images**: I used Fancybox "images" to display six images for each category. Every image has a name, the price and the copyright thanks to the data-caption attribute. The "ceramics" and "potteries" images are intentionally without a price because are demonstrative images that show a set of art pieces. A customer interested about a particular ceramic shape can contact the artists and they will quote a price. 
-If we click on one image it opens Fancybox viewer and allows us to move back and forward with the arrows, to zoom an image, to start a slideshow or to open the thumbnails gallery. Reducing or expanding the screen size the images behave as expected and are centered. On phone screens I used col-6 Bootstrap grid system to place two images side by side. 
+- **Gallery Images**: I used Fancybox "images" to display six images for each category. Every image has a name, the price and the copyright thanks to the data-caption attribute. The "ceramics" and "potteries" images are intentionally without a price because are demonstrative images that show a set of art pieces. A customer interested about a particular ceramic shape can contact the artists and they will quote a price. Was important in my opinion to show his category as the artists don't create only little art pieces but are ceramic makers.
+If we click on one image it opens Fancybox viewer and allows us to move back and forward with the arrows, to zoom an image, to start a slideshow or to open the thumbnails gallery. Reducing or expanding the screen size the images behave as expected. On phone screens I used col-6 Bootstrap grid system to place two images side by side. 
 - **Call to action button** "Place an order": hovering over it turns into Light Slate Gray color and it links to the "Contact us" page.
 #### Customize page
 - **Customize-icons**: I used Fontawesome Icons to explain step by step the personalization process. Reducing and expanding the window width the text and the icons adapt responsively.
@@ -222,7 +222,7 @@ If we click on one image it opens Fancybox viewer and allows us to move back and
 - **Call to action button** "Contact us and Design with us": hovering over it turns into Light Slate Gray color and it links to the "Contact us" page.
 #### Contact us page
 - **Form**: trying to submit the form with all the fields empty an error message appears saying "fill out this field". Trying to insert an invalid email address an error message suggests which part of the email address is missing. Trying to attach a file or an image the selection process works and the file is uploaded. Trying to fill out the form correctly the form reloads. I added the boolean attribute required to the name, email and text message fields so if they are not filled is not possible to submit the form.
-- **Call to action button** "Submit": hovering over it turns into Light Slate Gray color. If clicked, after have filled out the form it reloads the current page.
+- **Call to action button** "Submit": hovering over it turns into Light Slate Gray color. If clicked, after have filled out the form, it reloads the current page.
 
 ### Bugs and challenges during the project
 - I run into some issues placing the language buttons in the navigation bar. I tried to place them on the left, next to the logo, but I didn't like this solution and they were falling into the collapsible navbar. After asking an advice to the tutor at Code Institute Igor Basuga, I placed them on the right on large screens and styled them in media queries with absolute positioning. Then I decided to change the breakpoint from navbar-expand-sm to navbar-expand-md because in italian the words in the navigation menu were longer and at the breakpoint of 768px the language buttons disappeared. In this way the language buttons are always visible outside the collapsible menu and beside the burger icon on its left.
@@ -242,7 +242,7 @@ I deployed the project following these steps:
 2. Select my repository: Marta44/to-press2019
 3. Clicked **Settings** and scrolled down to GitHub Pages section
 4. I selected the master branch in the publishing **Source** dropdown menu and pressed **Save**
-5. The website is now published to GitHub Pages and the page refreshed automatically generating my site URL: [Live deployed page](https://marta44.github.io/to-press2019/)
+5. The website has been published to GitHub Pages and the page refreshed automatically generating my site URL: [Live deployed page](https://marta44.github.io/to-press2019/)
 6. The deployed site will update automatically If I bring changes with new commits.
 
 How to run the code locally: 
@@ -252,7 +252,7 @@ How to run the code locally:
 - Download the ZIP file (allows you to extract the files on your local machine)
 3. Clone my repository copying and pasting into the terminal of your preferred editor/local IDE 'git clone https://github.com/Marta44/to-press2019.git'
 4. Press Enter and a clone of this project will be created on your machine.
-5. To remove all references to the remote repository type into your terminal: 'git remote rm origin' or 'git remote remove origin'. This does not remove the repository from the remote server.
+5. To remove all references to the remote repository type into your terminal: 'git remote rm origin' or 'git remote remove origin'. This deletes all references to the remote repository without removing the repository from the remote server.
 
 - [More info about cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 ---
@@ -281,7 +281,7 @@ How to run the code locally:
 - [Css style to keep the footer at the bottom of the page](https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f)
 
 ### Content
-- The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi. The italian version has been written by the artists Elisabetta Schiavini and Sabrina Cardani, proofread and adapted by Marta Marassi.
+- The content of the "Home page", "About us" page and "Customize your product" page was written by the artists Elisabetta Schiavini and Sabrina Cardani and translated into English by Marta Marassi. The italian version has been written by the artists Elisabetta Schiavini and Sabrina Cardani, proofread, modified and adapted by Marta Marassi.
 - The text and headings in the rest of the website were created by Marta Marassi.
 ### Media
 - All the images used in the website were created by Elisabetta Schiavini and Sabrina Cardani.
